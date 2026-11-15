@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>预定利率还要降多少？ · 精算师说保险 第二季</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-id="17">
+<button class="navbtn" type="button">☰ 目录</button>
+<aside class="side">
+  <div class="brand"><b>精算师说保险 · 第二季</b><span>分红险的精算内核——比第一季更深一层</span></div>
+  <nav>
+<div class="grp">导论 · 行业为什么转向</div>
+<a href="00-解药.html">00 · 低利率时代，分红险为何是「解药」</a>
+<div class="grp">定价内功 · 见山三部曲（第1～5篇）</div>
+<a href="01-见山是山.html">01 · 见山是山：定价原来可以这么简单</a>
+<a href="02-保费不是拍脑袋.html">02 · 见山不是山（一）：保费不是拍脑袋</a>
+<a href="03-现金价值与红利.html">03 · 见山不是山（二）：现金价值与红利</a>
+<a href="04-利润与价值.html">04 · 见山不是山（三）：利润与新业务价值</a>
+<a href="05-见山还是山.html">05 · 见山还是山：举重若轻，守住底线</a>
+<div class="grp">专业深耕 · 负债与价值（第6～12篇）</div>
+<a href="06-准备金家族.html">06 · 分红保险的「准备金家族」</a>
+<a href="07-NBV全流程拆解.html">07 · 新业务价值（NBV）全流程拆解</a>
+<a href="08-定价决策框架.html">08 · 保证利率：1.75% 还是 1.5%</a>
+<a href="09-分红特别储备.html">09 · 分红特别储备全解析</a>
+<a href="10-实现率限高.html">10 · 分红实现率「限高」背后</a>
+<a href="11-红利分配方案.html">11 · 红利分配：现金红利 vs 增额红利</a>
+<a href="12-ALM实战.html">12 · 分红险资产负债管理实战</a>
+<div class="grp">国际镜鉴（第13～14篇）</div>
+<a href="13-美国200年.html">13 · 美国分红保险 200 年</a>
+<a href="14-日本启示.html">14 · 日本低利率时代的分红险启示</a>
+<div class="grp">公司战略与管理实务（第15～18篇）</div>
+<a href="15-中小公司优势.html">15 · 中小公司做分红险的三大优势</a>
+<a href="16-渠道转型.html">16 · 渠道转型：从「卖收益」到「卖逻辑」</a>
+<a href="17-预定利率.html" class="on">17 · 预定利率还要降多少？</a>
+<a href="18-备案驳回.html">18 · 新产品备案被驳回的 5 个原因</a>
+<div class="grp">延伸 · 从公司到个人</div>
+<a href="19-资产配置.html">19 · 资产配置：先认识自己，再配置世界</a>
+<div class="grp">关于</div>
+<a href="xihong.html">关于 · 西红精算</a>
+  </nav>
+  <div class="prog-mini">已读 <b id="kb-mini">0 / 20</b> 页<br>点每页右下角按钮记录进度</div>
+</aside>
+<main class="main">
+<div class="art-host">
+<style>
+.art-host *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.art-host body{
+            background-color: #f9fafb;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.7;
+            color: #1f2d3d;
+            padding: 24px 0 48px 0;
+        }
+.art-host .article-container{
+            max-width: 640px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+            overflow: hidden;
+            padding: 32px 24px 48px 24px;
+        }
+.art-host .article-title{
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 1.35;
+            color: #1e3a5f;
+            margin-bottom: 8px;
+            letter-spacing: -0.3px;
+        }
+.art-host .article-sub{
+            font-size: 15px;
+            color: #7c8ba0;
+            border-left: 3px solid #e67e22;
+            margin-bottom: 28px;
+            font-weight: 400;
+            background: #fef9f0;
+            padding: 12px 16px;
+            border-radius: 12px;
+        }
+.art-host p{
+            font-size: 16px;
+            margin-bottom: 1.2em;
+            color: #2c3e4f;
+            line-height: 1.75;
+        }
+.art-host h2{
+            font-size: 22px;
+            font-weight: 700;
+            margin: 1.6em 0 0.8em 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #eef2f6;
+            color: #1e4663;
+        }
+.art-host h3{
+            font-size: 18px;
+            font-weight: 600;
+            margin: 1.4em 0 0.6em 0;
+            color: #2c5a7a;
+        }
+.art-host .highlight-box{
+            background: linear-gradient(135deg, #f0f7ff 0%, #e8f0fa 100%);
+            border-left: 5px solid #2c8fbb;
+            padding: 18px 20px;
+            margin: 1.6em 0;
+            border-radius: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: #1a5d7a;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+        }
+.art-host .plain-talk{
+            background-color: #fef9e6;
+            border-left: 5px solid #f39c12;
+            padding: 14px 18px;
+            margin: 1.3em 0;
+            font-size: 15px;
+            color: #7d5d2e;
+            border-radius: 12px;
+        }
+.art-host .insight{
+            background-color: #eef7fa;
+            border-left: 6px solid #2c8fbb;
+            padding: 18px 20px;
+            margin: 1.6em 0;
+            border-radius: 16px;
+            font-size: 16px;
+            color: #1a5d7a;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+        }
+.art-host table{
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.6em 0;
+            font-size: 14px;
+            background-color: #fff;
+            border-radius: 14px;
+            overflow-x: auto;
+            display: block;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+.art-host th{
+            background-color: #1e4663;
+            color: white;
+            padding: 12px 8px;
+            font-weight: 600;
+            text-align: center;
+        }
+.art-host td{
+            padding: 10px 8px;
+            text-align: center;
+            border-bottom: 1px solid #e9edf2;
+            background-color: #fff;
+        }
+.art-host tr:last-child td{
+            border-bottom: none;
+        }
+.art-host .positive{
+            color: #27ae60;
+            font-weight: 700;
+        }
+.art-host .negative{
+            color: #e67e22;
+            font-weight: 700;
+        }
+.art-host ul,.art-host ol{
+            margin: 1em 0 1.2em 1.8em;
+        }
+.art-host li{
+            margin-bottom: 0.5em;
+            font-size: 16px;
+        }
+
+
+
+
+@media (max-width: 600px){.art-host .article-container{
+                padding: 24px 18px 36px 18px;
+            }
+.art-host .article-title{
+                font-size: 22px;
+            }
+.art-host p,.art-host li{
+                font-size: 15px;
+            }
+.art-host th,.art-host td{
+                font-size: 12px;
+                padding: 8px 4px;
+            }}
+.art-host .concept-cards{
+            background-color: #f8fafc;
+            border-radius: 24px;
+            padding: 20px;
+            margin: 28px 0 20px;
+            border: 1px solid #e2ecf3;
+        }
+.art-host .concept-cards h4{
+            font-size: 16px;
+            margin-bottom: 16px;
+            color: #1e4663;
+        }
+.art-host .concept-grid{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: space-between;
+        }
+.art-host .concept-item{
+            flex: 1;
+            min-width: 130px;
+            background: white;
+            padding: 10px 12px;
+            border-radius: 16px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            border: 1px solid #e2ecf3;
+        }
+.art-host .concept-item .cn{
+            font-weight: 700;
+            color: #1e3a5f;
+            display: block;
+            font-size: 14px;
+        }
+.art-host .concept-item .en{
+            font-size: 12px;
+            color: #8ba0bc;
+            display: block;
+            margin-top: 4px;
+        }
+.art-host .concept-item .desc{
+            font-size: 12px;
+            color: #5a6e8c;
+            display: block;
+            margin-top: 6px;
+        }
+@media (max-width: 550px){.art-host .concept-grid{
+                flex-direction: column;
+            }}
+</style>
+<style>.art-host .article-container{max-width:800px}.chap-banner{margin:0 0 24px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden}.chap-banner svg{display:block;width:100%;height:auto}.flow-fig{margin:10px 0 30px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden;background:#fcf5e6}.flow-fig svg{display:block;width:100%;height:auto}.chap-meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:-6px 0 26px;padding:0 0 18px;border-bottom:1px solid #e0d8c4}.chap-meta span{font-size:12px;letter-spacing:1.5px;padding:4px 14px;border-radius:30px;border:1px solid #cfc5ab;color:#55524a;background:#fbf8f0}.chap-meta span.lvl{color:#9c3527;border-color:rgba(156,53,39,.4);background:rgba(156,53,39,.06);font-weight:bold}.art-host .article-container p{line-height:2.0 !important;margin:0 0 15px !important;font-size:15.5px !important;color:#33322c !important;font-family:inherit}.art-host .article-container li{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}.art-host .article-container td,.art-host .article-container th{line-height:1.8 !important;font-size:13.5px !important}.art-host .article-container h2{font-size:21px !important;color:#1c1b18 !important;margin:38px 0 16px !important;line-height:1.55 !important;letter-spacing:1.5px;font-family:var(--serif);border-left:4px solid #235c4c;padding-left:14px}.art-host .article-container h3{font-size:17px !important;color:#235c4c !important;margin:26px 0 12px !important;line-height:1.6 !important;font-family:var(--serif)}.art-host .article-container h4{font-size:15px !important;color:#1c1b18 !important;margin:18px 0 10px !important;line-height:1.6 !important}.art-host .article-container strong{color:#1c1b18 !important}.art-host .article-container a{color:#235c4c !important}.art-host .article-container hr{border:none;border-top:1px dashed #cfc5ab;margin:26px 0 !important}.art-host .article-container .formula,.art-host .article-container .math,.art-host .article-container .formula-box{background:#f7f3e8 !important;border-left:3px solid #a37715 !important;border-radius:10px !important;font-family:var(--serif) !important;color:#4a3d1e !important}.art-host .article-container .calc-step{background:#fbf8f0 !important;border:1px solid #e0d8c4 !important;border-radius:10px !important}.art-host .article-container .term-table,.art-host .article-container .concept-table,.art-host .article-container .phase-table{font-size:14px !important}.art-host .article-container .positive{color:#235c4c !important}.art-host .article-container .negative{color:#9c3527 !important}.art-host .article-container .shuorenhua,.art-host .article-container .alert-box,.art-host .article-container .insight,.art-host .article-container .insight-box,.art-host .article-container .highlight-box,.art-host .article-container .plain-talk,.art-host .article-container .action-tips,.art-host .article-container .warning-box,.art-host .article-container .concept-grid,.art-host .article-container .concept-cards,.art-host .article-container .concept-item,.art-host .article-container .concept-card{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}</style>
+<div class="article-container"><figure class="chap-banner"><svg viewBox="0 0 680 190" role="img" aria-label="章节插画：预定利率联动"><rect width="680" height="190" fill="#fcf5e6"/><circle cx="598" cy="54" r="44" fill="#e6b45c" opacity="0.10"/><circle cx="598" cy="54" r="28" fill="#e6b45c" opacity="0.16"/><circle cx="598" cy="54" r="14" fill="#e6b45c" opacity="0.85"/><ellipse cx="340" cy="172" rx="305" ry="9" fill="#e3d5b4" opacity="0.5"/><path d="M110 80 h140" stroke="#3a3428" stroke-width="2.5"/><path d="M244 74 l10 6 -10 6 z" fill="#3a3428"/><rect x="270" y="58" width="150" height="44" rx="8" fill="#3d7a66"/><text x="345" y="86" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">研究值触发</text><path d="M426 80 h40" stroke="#3a3428" stroke-width="2.5"/><path d="M460 74 l10 6 -10 6 z" fill="#3a3428"/><rect x="480" y="58" width="120" height="44" rx="8" fill="#c98f2b"/><text x="540" y="86" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">上限调整</text><path d="M110 130 C 240 126 380 112 600 96" fill="none" stroke="#bf5638" stroke-width="3" stroke-linecap="round"/><text x="110" y="118" font-size="12" fill="#bf5638" font-family="serif">上限逐步下行</text><text x="340" y="162" font-size="12.5" fill="#3a3428" text-anchor="middle" font-family="serif">从行政定价 → 市场联动</text></svg></figure><div class="chap-meta"><span class="lvl">难度 · 进阶</span><span>主题 · 监管趋势</span><span>第二季 · 第 17 篇</span></div>
+    <h1 class="article-title">预定利率还要降多少？</h1>
+    <div class="article-sub">不推销，只讲逻辑。花10分钟读完，比你自己研究一个月都有用。</div>
+
+    <p>很多保险公司管理层都在问同一个问题：<strong>“分红险的保证利率从2.5%降到1.75%，还会继续降吗？降到多少是底？”</strong></p>
+    <p>这是制定产品策略、渠道策略和投资策略的核心依据。本文从<strong>预定利率动态调整机制、十年期国债走势、国际经验、以及资产负债匹配约束</strong>四个维度，给出未来三年分红险定价利率的预判。</p>
+
+    <div class="highlight-box">
+        📊 <strong>核心结论：</strong> 未来三年，分红险保证利率大概率依次跌破1.5%、1.25%，最终向1.0%甚至0.5%靠拢。传统险的2%保证利率也将同步下调。<strong>现在1.75%的保证利率，很可能是未来五年的高点。</strong>
+    </div>
+
+    <h2>📌 一、预定利率动态调整机制：降息有了“自动挡”</h2><figure class="flow-fig"><svg viewBox="0 0 680 220" role="img" aria-label="流程图：预定利率 · 动态调整机制"><rect width="680" height="220" fill="#fcf5e6"/><circle cx="608" cy="50" r="38" fill="#e6b45c" opacity="0.10"/><circle cx="608" cy="50" r="23" fill="#e6b45c" opacity="0.16"/><circle cx="608" cy="50" r="11" fill="#e6b45c" opacity="0.85"/><ellipse cx="340" cy="206" rx="300" ry="8" fill="#e3d5b4" opacity="0.5"/><text x="340" y="34" font-size="15" fill="#3a3428" text-anchor="middle" font-family="serif" letter-spacing="2">预定利率 · 动态调整机制</text><rect x="36" y="95" width="104" height="44" rx="8" fill="#3d7a66"/><text x="88" y="122" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">10年国债收益率</text><path d="M140 117 h10" stroke="#3a3428" stroke-width="2.5"/><path d="M150 111 l9 6 -9 6 z" fill="#3a3428"/><rect x="162" y="95" width="104" height="44" rx="8" fill="#3d7a66"/><text x="214" y="122" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">利率研究值</text><path d="M266 117 h10" stroke="#3a3428" stroke-width="2.5"/><path d="M276 111 l9 6 -9 6 z" fill="#3a3428"/><rect x="288" y="95" width="104" height="44" rx="8" fill="#c98f2b"/><text x="340" y="122" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">触发条件</text><path d="M392 117 h10" stroke="#3a3428" stroke-width="2.5"/><path d="M402 111 l9 6 -9 6 z" fill="#3a3428"/><rect x="414" y="95" width="104" height="44" rx="8" fill="#c98f2b"/><text x="466" y="122" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">上限调整</text><path d="M518 117 h10" stroke="#3a3428" stroke-width="2.5"/><path d="M528 111 l9 6 -9 6 z" fill="#3a3428"/><rect x="540" y="95" width="104" height="44" rx="8" fill="#bf5638"/><text x="592" y="122" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">新产品定价</text><text x="340" y="175" font-size="13" fill="#3a3428" text-anchor="middle" font-family="serif" letter-spacing="1">从行政定价 → 市场联动——降息有了「自动挡」</text></svg></figure>
+    <p>2024年8月，监管首次提出“预定利率与市场利率挂钩及动态调整机制”。根据该机制，保险行业协会每季度发布<strong>预定利率研究值</strong>（参考5年期LPR、5年定期存款基准利率、10年期国债到期收益率等）。</p>
+    <p><strong>触发规则：</strong> 当行业预定利率与研究值连续2个季度差值超过25bp，就必须进行调整（上浮或下调）。</p>
+    <div style="overflow-x: auto;">
+        <table>
+            <thead>
+                <tr><th>时间</th><th>预定利率研究值</th><th>实际预定利率（传统险）</th><th>利差</th><th>是否触发调整</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>2025Q1</td><td>2.13%</td><td>2.5%</td><td>37bp</td><td>连续2季度超25bp → 9月下调至2%</td></tr>
+                <tr><td>2025Q2</td><td>1.99%</td><td>2.5%</td><td>51bp</td><td>同上</td></tr>
+                <tr><td>2025Q3</td><td>1.90%</td><td>2.0%</td><td>10bp</td><td>安全</td></tr>
+                <tr><td>2026Q1</td><td>1.93%</td><td>2.0%</td><td>7bp</td><td>安全</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <p>一旦十年期国债收益率继续下行（比如跌至1.5%），研究值大概率跌破1.75%，届时预定利率将再次下调。</p>
+    <div class="plain-talk">
+        <strong>说人话：</strong> 以前的预定利率调整像“手动挡”，监管凭经验决定。现在变成了“自动挡”，利率一跌，预定利率就会跟着跌。而且这个机制是联动的，不存在人为拖延。
+    </div>
+
+    <h2>📌 二、十年期国债收益率：预定利率的“锚”</h2>
+    <p>保险公司的净投资收益率长期与十年期国债收益率保持约+150bp的利差。预定利率的定价基础，本质上就是<strong>国债收益率 + 合理利差</strong>。</p>
+    <ul>
+        <li>2023年初十年期国债约2.9%，传统险预定利率3.5% → 利差约60bp。</li>
+        <li>2024年十年期国债一度跌至2.2%，预定利率下调至2.5% → 利差约30bp。</li>
+        <li>2025年十年期国债最低1.6%，预定利率2.0% → 利差约40bp，分红险1.75% → 利差约15bp。</li>
+    </ul>
+    <p>未来三年国债收益率的几种可能路径：</p>
+    <table>
+        <thead><tr><th>情景</th><th>十年期国债终点</th><th>传统险预定利率</th><th>分红险保证利率</th></tr></thead>
+        <tbody>
+            <tr><td>乐观（经济复苏）</td><td>2.2%</td><td>2.0%→2.25%</td><td>1.5%→1.75%</td></tr>
+            <tr><td>基准（低利率持续）</td><td>1.5%</td><td>1.5%</td><td>1.0%</td></tr>
+            <tr><td>悲观（深度低利率）</td><td>1.0%</td><td>1.0%</td><td>0.5%</td></tr>
+        </tbody>
+    </table>
+    <div class="insight">
+        <strong>📉 精算视角：</strong> 从资产负债匹配角度来看，传统险刚性成本不能长期高于净投资收益率。当前净投资收益率约3.3%，而传统险仍有2.0%是安全的；但如果国债跌至1.5%，净投资收益率降至3.0%以下，传统险的2.0%依然可承受，但分红险的1.75%将更加从容。真正的压力在于：如果传统险不降，利差损会逐步侵蚀利润。
+    </div>
+
+    <h2>📌 三、国际经验：日本低利率时代的预定利率演变</h2>
+    <p>日本寿险业在1990年代泡沫破裂后，经历了长达30年的低利率环境，预定利率从6%以上一路降至1%以下。</p>
+    <div style="overflow-x: auto;">
+        <table>
+            <thead><tr><th>时期</th><th>10年期国债利率</th><th>新保单预定利率</th><th>主流产品形态</th></tr></thead>
+            <tbody>
+                <tr><td>1990年</td><td>约7%</td><td>5.0%-6.0%</td><td>固定利率年金</td></tr>
+                <tr><td>2000年</td><td>约1.8%</td><td>2.0%-2.5%</td><td>固定利率+分红险崛起</td></tr>
+                <tr><td>2010年</td><td>约1.2%</td><td>1.0%-1.5%</td><td>分红险为主流</td></tr>
+                <tr><td>2020年</td><td>约0.05%</td><td>0.25%-0.5%</td><td>变额年金、外汇保险</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <p>日本的经验表明：<strong>只要低利率持续，预定利率会逐渐逼近甚至低于1%。</strong> 目前中国十年期国债1.6%，远高于日本的0%，但趋势方向一致。</p>
+    <div class="plain-talk">
+        <strong>说人话：</strong> 日本用了30年，从高利率跌到零利率，预定利率从6%跌到0.5%。我们虽然不会那么快，但方向没有悬念。现在1.75%的分红险保证利率，放在五年后看可能就是“高息产品”。
+    </div>
+
+    <h2>📌 四、未来三年关键节点预判</h2>
+    <p>综合以上分析，给出分红险保证利率的可能路径：</p>
+    <table>
+        <thead><tr><th>时间</th><th>触发条件</th><th>传统险预定利率</th><th>分红险保证利率</th><th>驱动因素</th></tr></thead>
+        <tbody>
+            <tr><td>2026下半年</td><td>国债收益率持续低于1.7%，研究值＜1.8%</td><td>1.75%</td><td>1.5%</td><td>利差连续2季度超25bp</td></tr>
+            <tr><td>2027年</td><td>经济弱复苏，LPR下调</td><td>1.5%</td><td>1.25%</td><td>存款利率、LPR双降</td></tr>
+            <tr><td>2028年</td><td>长期低利率预期固化</td><td>1.25%</td><td>1.0%</td><td>资产负债匹配压力倒逼</td></tr>
+            <tr><td>2029年以后</td><td>极端情况</td><td>1.0%或以下</td><td>0.5%-1.0%</td><td>参考日本路径</td></tr>
+        </tbody>
+    </table>
+    <div class="insight">
+        <strong>⚠️ 特别提醒：</strong> 监管可能一次性下调多个档次，不一定每次只降25bp。2023-2025年已经连续三次大幅下调（3.5%→3.0%→2.5%→2.0%）。<strong>保险公司不应等待，而应主动降本。</strong>
+    </div>
+
+    <h2>📌 五、对管理层的战略启示</h2>
+    <ul>
+        <li><strong>产品策略：</strong> 不要再设计高保证利率的传统险新产品，存量业务逐步压降。分红险保证利率降低是必然趋势，<strong>现在1.75%反而是锁定长期资金的窗口期。</strong></li>
+        <li><strong>投资策略：</strong> 拉长资产久期，增配超长期国债、高等级信用债和稳定现金流另类资产，锁定当前相对较高的收益率。</li>
+        <li><strong>销售策略：</strong> 向客户传递“保证利率下降趋势”，<strong>现在购买分红险能锁定1.75%的终身保底，未来新产品可能只有1%甚至更低。</strong></li>
+        <li><strong>内部管理：</strong> 将预定利率研究值纳入公司月度经营分析，提前6个月预判调整窗口。</li>
+    </ul>
+    <div class="plain-talk">
+        <strong>说人话：</strong> 利率下行不是“会不会”的问题，而是“多快”的问题。预定利率一定会跟着国债利率走。现在1.75%的分红险，过两年看就是“绝版”。如果你还在犹豫，当保证利率降到1%时，客户还会买吗？卖点就变成了“弹性”，而不是“保底”。
+    </div>
+
+    <hr>
+
+    <div class="concept-cards">
+        <h4>📖 本章核心概念速记卡</h4>
+        <div class="concept-grid">
+            <div class="concept-item"><span class="cn">预定利率研究值</span><span class="en">Benchmark Interest Rate</span><span class="desc">行业协会每季度发布，触发调整的标尺</span></div>
+            <div class="concept-item"><span class="cn">动态调整机制</span><span class="en">Dynamic Adjustment Mechanism</span><span class="desc">连两季差＞25bp即调</span></div>
+            <div class="concept-item"><span class="cn">十年期国债收益率</span><span class="en">10Y Treasury Yield</span><span class="desc">预定利率的核心锚</span></div>
+            <div class="concept-item"><span class="cn">利差损风险</span><span class="en">Negative Spread Risk</span><span class="desc">投资收益率低于保证利率</span></div>
+            <div class="concept-item"><span class="cn">资产负债匹配</span><span class="en">ALM</span><span class="desc">负债成本必须与资产收益匹配</span></div>
+        </div>
+    </div>
+
+    </div>
+</div>
+<div class="pager"><a href="16-渠道转型.html"><small>← 上一篇</small>渠道转型：从「卖收益」到「卖逻辑」</a><a class="next" href="18-备案驳回.html"><small>下一篇 →</small>新产品备案被驳回的 5 个原因</a></div>
+<footer class="colophon">精算师说保险 · 第二季 · 西红精算 · 只讲逻辑与方法<br>本文为专业内容，仅供学习交流，不构成任何投保建议；具体产品请以条款与官方信息披露为准。</footer>
+</main>
+<script src="js/kb.js"></script>
+</body>
+</html>

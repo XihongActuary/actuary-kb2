@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>新业务价值（NBV）全流程拆解 · 精算师说保险 第二季</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-id="07">
+<button class="navbtn" type="button">☰ 目录</button>
+<aside class="side">
+  <div class="brand"><b>精算师说保险 · 第二季</b><span>分红险的精算内核——比第一季更深一层</span></div>
+  <nav>
+<div class="grp">导论 · 行业为什么转向</div>
+<a href="00-解药.html">00 · 低利率时代，分红险为何是「解药」</a>
+<div class="grp">定价内功 · 见山三部曲（第1～5篇）</div>
+<a href="01-见山是山.html">01 · 见山是山：定价原来可以这么简单</a>
+<a href="02-保费不是拍脑袋.html">02 · 见山不是山（一）：保费不是拍脑袋</a>
+<a href="03-现金价值与红利.html">03 · 见山不是山（二）：现金价值与红利</a>
+<a href="04-利润与价值.html">04 · 见山不是山（三）：利润与新业务价值</a>
+<a href="05-见山还是山.html">05 · 见山还是山：举重若轻，守住底线</a>
+<div class="grp">专业深耕 · 负债与价值（第6～12篇）</div>
+<a href="06-准备金家族.html">06 · 分红保险的「准备金家族」</a>
+<a href="07-NBV全流程拆解.html" class="on">07 · 新业务价值（NBV）全流程拆解</a>
+<a href="08-定价决策框架.html">08 · 保证利率：1.75% 还是 1.5%</a>
+<a href="09-分红特别储备.html">09 · 分红特别储备全解析</a>
+<a href="10-实现率限高.html">10 · 分红实现率「限高」背后</a>
+<a href="11-红利分配方案.html">11 · 红利分配：现金红利 vs 增额红利</a>
+<a href="12-ALM实战.html">12 · 分红险资产负债管理实战</a>
+<div class="grp">国际镜鉴（第13～14篇）</div>
+<a href="13-美国200年.html">13 · 美国分红保险 200 年</a>
+<a href="14-日本启示.html">14 · 日本低利率时代的分红险启示</a>
+<div class="grp">公司战略与管理实务（第15～18篇）</div>
+<a href="15-中小公司优势.html">15 · 中小公司做分红险的三大优势</a>
+<a href="16-渠道转型.html">16 · 渠道转型：从「卖收益」到「卖逻辑」</a>
+<a href="17-预定利率.html">17 · 预定利率还要降多少？</a>
+<a href="18-备案驳回.html">18 · 新产品备案被驳回的 5 个原因</a>
+<div class="grp">延伸 · 从公司到个人</div>
+<a href="19-资产配置.html">19 · 资产配置：先认识自己，再配置世界</a>
+<div class="grp">关于</div>
+<a href="xihong.html">关于 · 西红精算</a>
+  </nav>
+  <div class="prog-mini">已读 <b id="kb-mini">0 / 20</b> 页<br>点每页右下角按钮记录进度</div>
+</aside>
+<main class="main">
+<div class="art-host">
+<style>
+.art-host *{ margin: 0; padding: 0; box-sizing: border-box; }
+.art-host body{ background-color: #f9fafb; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.7; color: #1f2d3d; padding: 24px 0 48px 0; }
+.art-host .article-container{ max-width: 640px; margin: 0 auto; background-color: #ffffff; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.03); overflow: hidden; padding: 32px 24px 48px 24px; }
+.art-host .article-title{ font-size: 26px; font-weight: 700; line-height: 1.35; color: #1e3a5f; margin-bottom: 8px; letter-spacing: -0.3px; }
+.art-host .article-sub{ font-size: 15px; color: #7c8ba0; border-left: 3px solid #e67e22; margin-bottom: 28px; font-weight: 400; background: #fef9f0; padding: 12px 16px; border-radius: 12px; }
+.art-host p{ font-size: 16px; margin-bottom: 1.2em; color: #2c3e4f; line-height: 1.75; }
+.art-host h2{ font-size: 22px; font-weight: 700; margin: 1.6em 0 0.8em 0; padding-bottom: 8px; border-bottom: 2px solid #eef2f6; color: #1e4663; }
+.art-host h3{ font-size: 18px; font-weight: 600; margin: 1.4em 0 0.6em 0; color: #2c5a7a; }
+.art-host .highlight-box{ background: linear-gradient(135deg, #f0f7ff 0%, #e8f0fa 100%); border-left: 5px solid #2c8fbb; padding: 18px 20px; margin: 1.6em 0; border-radius: 16px; font-size: 17px; font-weight: 500; color: #1a5d7a; }
+.art-host .plain-talk{ background-color: #fef9e6; border-left: 5px solid #f39c12; padding: 14px 18px; margin: 1.3em 0; font-size: 15px; color: #7d5d2e; border-radius: 12px; }
+.art-host .insight{ background-color: #eef7fa; border-left: 6px solid #2c8fbb; padding: 18px 20px; margin: 1.6em 0; border-radius: 16px; font-size: 16px; color: #1a5d7a; }
+.art-host .formula{ background-color: #f4f9fc; border-radius: 14px; padding: 12px 16px; margin: 1.2em 0; font-family: 'Courier New', monospace; font-size: 14px; text-align: center; border: 1px solid #cde5ed; overflow-x: auto; line-height: 1.8; }
+.art-host table{ width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 14px; background-color: #fff; border-radius: 14px; overflow-x: auto; display: block; }
+.art-host th{ background-color: #1e4663; color: white; padding: 12px 8px; font-weight: 600; text-align: center; }
+.art-host td{ padding: 10px 8px; text-align: left; border-bottom: 1px solid #e9edf2; background-color: #fff; vertical-align: top; }
+.art-host ul,.art-host ol{ margin: 1em 0 1.2em 1.8em; }
+.art-host li{ margin-bottom: 0.5em; font-size: 16px; }
+
+
+
+@media (max-width: 600px){.art-host .article-container{ padding: 24px 18px 36px 18px; }
+.art-host .article-title{ font-size: 22px; }
+.art-host p,.art-host li{ font-size: 15px; }
+.art-host th,.art-host td{ font-size: 12px; padding: 8px 4px; }
+.art-host .formula{ font-size: 12px; }}
+.art-host sub,.art-host sup{ font-size: 0.75em; line-height: 1; }
+.art-host .term-table td:first-child{ font-weight: 600; background-color: #f8fafc; }
+.art-host .calc-step{ background-color: #fef9e6; border-left: 4px solid #f39c12; padding: 10px 14px; margin: 1em 0; border-radius: 12px; }
+</style>
+<style>.art-host .article-container{max-width:800px}.chap-banner{margin:0 0 24px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden}.chap-banner svg{display:block;width:100%;height:auto}.flow-fig{margin:10px 0 30px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden;background:#fcf5e6}.flow-fig svg{display:block;width:100%;height:auto}.chap-meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:-6px 0 26px;padding:0 0 18px;border-bottom:1px solid #e0d8c4}.chap-meta span{font-size:12px;letter-spacing:1.5px;padding:4px 14px;border-radius:30px;border:1px solid #cfc5ab;color:#55524a;background:#fbf8f0}.chap-meta span.lvl{color:#9c3527;border-color:rgba(156,53,39,.4);background:rgba(156,53,39,.06);font-weight:bold}.art-host .article-container p{line-height:2.0 !important;margin:0 0 15px !important;font-size:15.5px !important;color:#33322c !important;font-family:inherit}.art-host .article-container li{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}.art-host .article-container td,.art-host .article-container th{line-height:1.8 !important;font-size:13.5px !important}.art-host .article-container h2{font-size:21px !important;color:#1c1b18 !important;margin:38px 0 16px !important;line-height:1.55 !important;letter-spacing:1.5px;font-family:var(--serif);border-left:4px solid #235c4c;padding-left:14px}.art-host .article-container h3{font-size:17px !important;color:#235c4c !important;margin:26px 0 12px !important;line-height:1.6 !important;font-family:var(--serif)}.art-host .article-container h4{font-size:15px !important;color:#1c1b18 !important;margin:18px 0 10px !important;line-height:1.6 !important}.art-host .article-container strong{color:#1c1b18 !important}.art-host .article-container a{color:#235c4c !important}.art-host .article-container hr{border:none;border-top:1px dashed #cfc5ab;margin:26px 0 !important}.art-host .article-container .formula,.art-host .article-container .math,.art-host .article-container .formula-box{background:#f7f3e8 !important;border-left:3px solid #a37715 !important;border-radius:10px !important;font-family:var(--serif) !important;color:#4a3d1e !important}.art-host .article-container .calc-step{background:#fbf8f0 !important;border:1px solid #e0d8c4 !important;border-radius:10px !important}.art-host .article-container .term-table,.art-host .article-container .concept-table,.art-host .article-container .phase-table{font-size:14px !important}.art-host .article-container .positive{color:#235c4c !important}.art-host .article-container .negative{color:#9c3527 !important}.art-host .article-container .shuorenhua,.art-host .article-container .alert-box,.art-host .article-container .insight,.art-host .article-container .insight-box,.art-host .article-container .highlight-box,.art-host .article-container .plain-talk,.art-host .article-container .action-tips,.art-host .article-container .warning-box,.art-host .article-container .concept-grid,.art-host .article-container .concept-cards,.art-host .article-container .concept-item,.art-host .article-container .concept-card{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}</style>
+<div class="article-container"><figure class="chap-banner"><svg viewBox="0 0 680 190" role="img" aria-label="章节插画：NBV 全流程"><rect width="680" height="190" fill="#fcf5e6"/><circle cx="598" cy="54" r="44" fill="#e6b45c" opacity="0.10"/><circle cx="598" cy="54" r="28" fill="#e6b45c" opacity="0.16"/><circle cx="598" cy="54" r="14" fill="#e6b45c" opacity="0.85"/><ellipse cx="340" cy="172" rx="305" ry="9" fill="#e3d5b4" opacity="0.5"/><path d="M80 96 h520" stroke="#e3d5b4" stroke-width="2" stroke-dasharray="6 6"/><circle cx="110" cy="96" r="20" fill="#3d7a66"/><text x="110" y="168" font-size="12" fill="#3a3428" text-anchor="middle" font-family="serif">现金流</text><circle cx="240" cy="96" r="20" fill="#3d7a66"/><text x="240" y="168" font-size="12" fill="#3a3428" text-anchor="middle" font-family="serif">假设</text><circle cx="370" cy="96" r="20" fill="#c98f2b"/><text x="370" y="168" font-size="12" fill="#3a3428" text-anchor="middle" font-family="serif">要求资本</text><circle cx="500" cy="96" r="20" fill="#c98f2b"/><text x="500" y="168" font-size="12" fill="#3a3428" text-anchor="middle" font-family="serif">剩余边际</text><circle cx="610" cy="96" r="20" fill="#bf5638"/><text x="610" y="168" font-size="12" fill="#3a3428" text-anchor="middle" font-family="serif">NBV</text><path d="M132 96 h86 M262 96 h86 M392 96 h86 M522 96 h66" stroke="#3a3428" stroke-width="2.5"/><path d="M214 90 l10 6 -10 6 z M344 90 l10 6 -10 6 z M474 90 l10 6 -10 6 z M584 90 l10 6 -10 6 z" fill="#3a3428"/></svg></figure><div class="chap-meta"><span class="lvl">难度 · 专业</span><span>主题 · 价值评估</span><span>第二季 · 第 07 篇</span></div>
+    <h1 class="article-title">新业务价值（NBV）全流程拆解</h1>
+    <div class="article-sub">不推销，只讲逻辑。花10分钟读完，比你自己研究一个月都有用。本文整合公司《产品开发手册》与最新精算标准，以“可分配盈余 = 税后利润 − 要求资本变动 + 要求资本投资收益”为主线，逐层拆解新业务价值（NBV）。</div>
+
+    <div class="highlight-box">
+        🧭 <strong>一句话核心</strong><br>
+        新业务价值（NBV / NBEV） = 未来各年度“可分配盈余”的现值。<br>
+        可分配盈余 = 税后利润 − 要求资本变动 + 要求资本的投资收益。<br>
+        剩余边际（DPL）可以直接抵扣要求资本，高价值产品更省资本。
+    </div>
+
+    <h2>📌 一、什么是新业务价值（NBV / NBEV）？</h2>
+    <p>新业务价值是当年新销售保单在未来创造的、可分配给股东的税后利润的现值。它直接回答：“今年卖的这张保单，到底给股东创造了多少价值？”</p>
+    <p>它不是会计利润，因为会计利润受费用前置、准备金释放节奏影响，无法反映长期股东回报。NBV扣除了要求资本的机会成本，是评估新单盈利性的最核心指标。</p>
+    <div class="plain-talk">
+        <strong>📢 说人话</strong>：NBV就像你种了一棵果树，未来每年结的果子，扣掉肥料钱、人工费后，折现到今天值多少钱。果子还没长出来，但已经可以估算它的价值。
+    </div>
+
+    <h2>📌 二、从现金流到新业务价值的全景流程图</h2><figure class="flow-fig"><svg viewBox="0 0 680 220" role="img" aria-label="流程图：NBV 全流程 · 六步走"><rect width="680" height="220" fill="#fcf5e6"/><circle cx="608" cy="50" r="38" fill="#e6b45c" opacity="0.10"/><circle cx="608" cy="50" r="23" fill="#e6b45c" opacity="0.16"/><circle cx="608" cy="50" r="11" fill="#e6b45c" opacity="0.85"/><ellipse cx="340" cy="206" rx="300" ry="8" fill="#e3d5b4" opacity="0.5"/><text x="340" y="34" font-size="15" fill="#3a3428" text-anchor="middle" font-family="serif" letter-spacing="2">NBV 全流程 · 六步走</text><rect x="100" y="62" width="140" height="44" rx="8" fill="#3d7a66"/><text x="170" y="89" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">现金流预测</text><path d="M240 84 h18" stroke="#3a3428" stroke-width="2.5"/><path d="M258 78 l9 6 -9 6 z" fill="#3a3428"/><rect x="270" y="62" width="140" height="44" rx="8" fill="#3d7a66"/><text x="340" y="89" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">经济假设</text><path d="M410 84 h18" stroke="#3a3428" stroke-width="2.5"/><path d="M428 78 l9 6 -9 6 z" fill="#3a3428"/><rect x="440" y="62" width="140" height="44" rx="8" fill="#c98f2b"/><text x="510" y="89" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">贴现折现</text><path d="M510 106 v16 H170 v18" fill="none" stroke="#3a3428" stroke-width="2.5"/><path d="M162 138 l8 8 8 -8 z" fill="#3a3428"/><rect x="100" y="146" width="140" height="44" rx="8" fill="#c98f2b"/><text x="170" y="173" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">要求资本 RC</text><path d="M240 168 h18" stroke="#3a3428" stroke-width="2.5"/><path d="M258 162 l9 6 -9 6 z" fill="#3a3428"/><rect x="270" y="146" width="140" height="44" rx="8" fill="#c98f2b"/><text x="340" y="173" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">剩余边际抵扣</text><path d="M410 168 h18" stroke="#3a3428" stroke-width="2.5"/><path d="M428 162 l9 6 -9 6 z" fill="#3a3428"/><rect x="440" y="146" width="140" height="44" rx="8" fill="#bf5638"/><text x="510" y="173" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">NBV</text><text x="340" y="198" font-size="13" fill="#3a3428" text-anchor="middle" font-family="serif" letter-spacing="1">剩余边际抵扣要求资本——NBV 的隐藏引擎</text></svg></figure>
+    <div style="background:#f8fafc; padding: 14px; border-radius: 16px; margin: 1.2em 0; font-family: monospace; font-size: 14px; white-space: pre-wrap; line-height: 1.8;">
+        【保单现金流预测】
+        &nbsp;&nbsp;&nbsp;↓
+        【计算相应负债 Liab<sub>t</sub> = RES<sub>t</sub> + DPL<sub>t</sub>】
+        &nbsp;&nbsp;&nbsp;↓
+        【计算税后利润】Profit<sub>t</sub>
+        &nbsp;&nbsp;&nbsp;↓
+        【计算要求资本 RC<sub>t</sub> 及其变动 ΔRC<sub>t</sub>】
+        &nbsp;&nbsp;&nbsp;↓
+        【计算可分配盈余】DE<sub>t</sub> = Profit<sub>t</sub> − ΔRC<sub>t</sub> + Inv<sub>t</sub><sup>RC</sup>
+        &nbsp;&nbsp;&nbsp;↓
+        【折现求和】NBV = Σ<sub>t&gt;0</sub> [ DE<sub>t</sub> / (1+RDR)<sup>t</sup> ]
+    </div>
+
+    <h2>📌 三、第一步：现金流预测</h2>
+    <p>每个保单年度 <i>t</i> 的净现金流为：</p>
+    <div class="formula">
+        净现金流 = GP<sub>t</sub> − Exp<sub>t</sub> − Claim<sub>t</sub> − Lapse<sub>t</sub> − Div<sub>t</sub>
+    </div>
+    <ul>
+        <li>GP<sub>t</sub>：保费收入</li>
+        <li>Exp<sub>t</sub>：费用支出（佣金、维持费、监管费等）</li>
+        <li>Claim<sub>t</sub>：理赔支出（身故、重疾、生存金、满期金）</li>
+        <li>Lapse<sub>t</sub>：退保金</li>
+        <li>Div<sub>t</sub>：红利支出</li>
+    </ul>
+    <div class="insight">💡 现金流是“实际发生”的金额，不是会计确认的保费收入。</div>
+
+    <h2>📌 四、第二步：相应负债（Liab<sub>t</sub>）的构成</h2>
+    <p>内含价值评估中的“相应负债” = 寿险合同负债 RES<sub>t</sub> + 剩余边际 DPL<sub>t</sub>。</p>
+    <h3>4.1 寿险合同负债 RES<sub>t</sub></h3>
+    <div class="formula">
+        RES<sub>t</sub> = PVCF<sub>t</sub> + TVOG<sub>t</sub> + RM<sub>t</sub>
+    </div>
+    <p>其中：</p>
+    <ul>
+        <li>PVCF<sub>t</sub>：负债现金流现值</li>
+        <li>TVOG<sub>t</sub>：选择权及保证利益的时间价值（利率保证成本）</li>
+        <li>RM<sub>t</sub>：风险边际，采用分位点法：<br>RM<sub>t</sub> = MC<sub>t</sub><sup>保险风险</sup> × [Φ⁻¹(85%) / Φ⁻¹(99.5%)]</li>
+    </ul>
+    <h3>4.2 剩余边际 DPL<sub>t</sub></h3>
+    <p>剩余边际是为了不确认首日利得而设立的负债。签单时若 RES<sub>0</sub> < 0，则 DPL<sub>0</sub> = −RES<sub>0</sub>，并在整个保险期间按有效保单件数摊销：</p>
+    <div class="formula">
+        DPL<sub>t</sub> = PAC<sub>t</sub> × k，其中 k = DPL<sub>0</sub> / PAC<sub>0</sub>，<br>
+        PAC<sub>t</sub> = Σ<sub>n=0</sub><sup>bt</sup> IF<sub>t+n</sub> × Disc<sub>n</sub>
+    </div>
+    <div class="plain-talk">说人话：剩余边际就是“未来利润的蓄水池”，签单时先把利润存进去，然后随着保单服务逐年释放到利润表中。</div>
+
+    <h2>📌 五、第三步：税后利润 Profit<sub>t</sub> 的计算</h2>
+    <div class="formula">
+        Profit<sub>t</sub> = ( GP<sub>t</sub> − Exp<sub>t</sub> − Claim<sub>t</sub> − Lapse<sub>t</sub> − Div<sub>t</sub> + Inv<sub>t</sub> − ΔLiab<sub>t</sub> ) × (1 − TaxRate)
+    </div>
+    <p>其中：</p>
+    <ul>
+        <li>投资收益 Inv<sub>t</sub> = (Liab<sub>t-1</sub> + GP<sub>t</sub> − Exp<sub>t</sub>) × InvRate</li>
+        <li>相应负债提转差 ΔLiab<sub>t</sub> = Liab<sub>t</sub> − Liab<sub>t-1</sub></li>
+    </ul>
+    <div class="insight">关键点：负债增加（ΔLiab<sub>t</sub> > 0）会扣减利润，因为要多存钱；负债减少会增加利润。</div>
+
+    <h2>📌 六、第四步：要求资本 RC<sub>t</sub> 及变动</h2>
+    <h3>6.1 要求资本（RC）的精确公式</h3>
+    <div class="formula">
+        RC<sub>t</sub> = max{ MC<sub>t</sub> + max[ CV<sub>t</sub> − (RES<sub>t</sub> + MC<sub>t</sub>), 0 ] − (DPL<sub>t</sub> − DTL<sub>t</sub>), 0 }
+    </div>
+    <p>其中：</p>
+    <ul>
+        <li>MC<sub>t</sub>：最低资本（偿二代二期下保险风险、市场风险、信用风险之和）</li>
+        <li>CV<sub>t</sub>：现金价值</li>
+        <li>RES<sub>t</sub>：寿险合同负债</li>
+        <li>DPL<sub>t</sub>：剩余边际</li>
+        <li>DTL<sub>t</sub>：递延所得税负债（通常 DTL<sub>t</sub> = DPL<sub>t</sub> × 10%）</li>
+    </ul>
+    <h3>6.2 精算含义：剩余边际的“抵扣”效应</h3>
+    <p>忽略中间项（实务中该值几乎为0），公式简化为：</p>
+    <div class="formula">
+        RC<sub>t</sub> ≈ max( MC<sub>t</sub> − (DPL<sub>t</sub> − DTL<sub>t</sub>), 0 )
+    </div>
+    <p>即：要求资本 = 最低资本 − 剩余边际（税后价值）。剩余边际越厚的产品，要求资本越低。这就是为什么长期保障型产品（剩余边际高）资本占用少，而低价值理财型产品反而更“吃资本”。</p>
+    <h3>6.3 要求资本变动</h3>
+    <div class="formula">
+        ΔRC<sub>t</sub> = RC<sub>t</sub> − RC<sub>t-1</sub>
+    </div>
+    <ul>
+        <li>若 ΔRC<sub>t</sub> > 0：需额外锁住资本，减少可分配盈余。</li>
+        <li>若 ΔRC<sub>t</sub> < 0：释放资本，增加可分配盈余。</li>
+    </ul>
+
+    <h2>📌 七、第五步：可分配盈余 DE<sub>t</sub> 的计算</h2>
+    <div class="formula">
+        DE<sub>t</sub> = Profit<sub>t</sub> − ΔRC<sub>t</sub> + RC<sub>t-1</sub> × InvRate × (1 − TaxRate)
+    </div>
+    <div class="plain-talk">可分配盈余 = 税后利润 − 当年新增锁死的资本 + 锁死资本产生的税后投资收益。这才是股东真正能拿到手的现金流。</div>
+
+    <h2>📌 八、第六步：新业务价值的最终计算</h2>
+    <div class="formula">
+        NBV = Σ<sub>t=1</sub><sup>T</sup> DE<sub>t</sub> / (1 + RDR)<sup>t</sup>
+    </div>
+    <p>其中 RDR 是风险贴现率（Risk Discount Rate），通常取11% – 12.5%，反映了股东对长期不确定性的回报要求。</p>
+
+    <h2>📌 九、细化简化示例（3年交保6年分红险）</h2>
+    <p>以下使用一套完整的月度模型精算示意数据（非真实产品，仅为演示逻辑），从保费开始，逐项展示每个指标的计算过程。</p>
+    <p><strong>产品设定：</strong><br>
+    · 年交保费：10,000元，交3年，保6年。<br>
+    · 预定利率：1.75%，演示利率：3.5%，分配比例：70%。<br>
+    · 投资收益率（InvRate）：4.0%。<br>
+    · 风险贴现率（RDR）：12.5%。<br>
+    · 所得税率（TaxRate）：25%。<br>
+    · 各年相应负债（Liab<sub>t</sub>）、剩余边际（DPL<sub>t</sub>）等由精算模型生成，数据如下（单位：元）。</p>
+
+    <div class="calc-step">
+        <strong>🔢 步骤1：现金流与负债数据</strong>
+        <div style="overflow-x: auto;">
+            <table>
+                <thead><tr><th>年度 t</th><th>GP<sub>t</sub> (保费)</th><th>Exp<sub>t</sub> (费用)</th><th>Claim<sub>t</sub> (赔付)</th><th>Lapse<sub>t</sub> (退保)</th><th>Div<sub>t</sub> (红利)</th><th>Liab<sub>t</sub> (负债)</th></tr></thead>
+                <tbody>
+                    <tr><td>0</td><td>10,000</td><td>2,800</td><td>0</td><td>0</td><td>0</td><td>8,200</td></tr>
+                    <tr><td>1</td><td>10,000</td><td>1,200</td><td>30</td><td>500</td><td>0</td><td>14,800</td></tr>
+                    <tr><td>2</td><td>10,000</td><td>800</td><td>40</td><td>400</td><td>0</td><td>22,000</td></tr>
+                    <tr><td>3</td><td>0</td><td>400</td><td>50</td><td>300</td><td>200</td><td>19,500</td></tr>
+                    <tr><td>4</td><td>0</td><td>400</td><td>60</td><td>200</td><td>220</td><td>16,200</td></tr>
+                    <tr><td>5</td><td>0</td><td>400</td><td>70</td><td>100</td><td>240</td><td>12,000</td></tr>
+                    <tr><td>6</td><td>0</td><td>400</td><td>80</td><td>0</td><td>260</td><td>0</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p>注意：负债 Liab<sub>t</sub> 是年末相应负债，Liab<sub>0</sub> 为期初负债。ΔLiab<sub>t</sub> = Liab<sub>t</sub> − Liab<sub>t-1</sub>。</p>
+    </div>
+
+    <div class="calc-step">
+        <strong>🔢 步骤2：计算税后利润 Profit<sub>t</sub></strong>
+        <div style="overflow-x: auto;">
+            <table>
+                <thead><tr><th>年度 t</th><th>GP<sub>t</sub></th><th>Exp<sub>t</sub></th><th>Claim+Lapse+Div</th><th>Inv<sub>t</sub><sup>①</sup></th><th>ΔLiab<sub>t</sub></th><th>税前利润<sup>②</sup></th><th>Profit<sub>t</sub> (税后)</th></tr></thead>
+                <tbody>
+                    <tr><td>1</td><td>10,000</td><td>1,200</td><td>530</td><td>328</td><td>14,800-8,200=6,600</td><td>10,000-1,200-530+328-6,600=1,998</td><td>1,998×(1-0.25)=1,499</td></tr>
+                    <tr><td>2</td><td>10,000</td><td>800</td><td>440</td><td>592</td><td>22,000-14,800=7,200</td><td>10,000-800-440+592-7,200=2,152</td><td>2,152×0.75=1,614</td></tr>
+                    <tr><td>3</td><td>0</td><td>400</td><td>550</td><td>880</td><td>19,500-22,000=-2,500</td><td>0-400-550+880-(-2,500)=2,430</td><td>2,430×0.75=1,823</td></tr>
+                    <tr><td>4</td><td>0</td><td>400</td><td>480</td><td>780</td><td>16,200-19,500=-3,300</td><td>0-400-480+780-(-3,300)=3,200</td><td>3,200×0.75=2,400</td></tr>
+                    <tr><td>5</td><td>0</td><td>400</td><td>410</td><td>648</td><td>12,000-16,200=-4,200</td><td>0-400-410+648-(-4,200)=4,038</td><td>4,038×0.75=3,029</td></tr>
+                    <tr><td>6</td><td>0</td><td>400</td><td>340</td><td>480</td><td>0-12,000=-12,000</td><td>0-400-340+480-(-12,000)=11,740</td><td>11,740×0.75=8,805</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p>①Inv<sub>t</sub> = (Liab<sub>t-1</sub> + GP<sub>t</sub> − Exp<sub>t</sub>) × 4%。<br>②税前利润 = GP − Exp − (Claim+Lapse+Div) + Inv − ΔLiab。</p>
+    </div>
+
+    <div class="calc-step">
+        <strong>🔢 步骤3：要求资本 RC<sub>t</sub> 与变动 ΔRC<sub>t</sub></strong>
+        <p>假设最低资本 MC<sub>t</sub> = 0.08 × RES<sub>t</sub>（简化），剩余边际 DPL<sub>t</sub> 由模型给出，递延所得税 DTL<sub>t</sub> = 10%×DPL<sub>t</sub>。忽略现金价值项，RC<sub>t</sub> = max( MC<sub>t</sub> − (DPL<sub>t</sub>−DTL<sub>t</sub>), 0 )。数据如下：</p>
+        <div style="overflow-x: auto;">
+            <table>
+                <thead><tr><th>t</th><th>RES<sub>t</sub></th><th>MC<sub>t</sub>=8%RES</th><th>DPL<sub>t</sub></th><th>DTL<sub>t</sub></th><th>RC<sub>t</sub> = MC - (DPL-DTL)</th><th>ΔRC<sub>t</sub> = RC<sub>t</sub>−RC<sub>t-1</sub></th></tr></thead>
+                <tbody>
+                    <tr><td>0</td><td>8,200</td><td>656</td><td>600</td><td>60</td><td>656-(600-60)=116</td><td>—</td></tr>
+                    <tr><td>1</td><td>14,800</td><td>1,184</td><td>580</td><td>58</td><td>1,184-(580-58)=662</td><td>662-116=546</td></tr>
+                    <tr><td>2</td><td>22,000</td><td>1,760</td><td>550</td><td>55</td><td>1,760-(550-55)=1,265</td><td>1,265-662=603</td></tr>
+                    <tr><td>3</td><td>19,500</td><td>1,560</td><td>520</td><td>52</td><td>1,560-(520-52)=1,092</td><td>1,092-1,265=-173</td></tr>
+                    <tr><td>4</td><td>16,200</td><td>1,296</td><td>480</td><td>48</td><td>1,296-(480-48)=864</td><td>864-1,092=-228</td></tr>
+                    <tr><td>5</td><td>12,000</td><td>960</td><td>420</td><td>42</td><td>960-(420-42)=582</td><td>582-864=-282</td></tr>
+                    <tr><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0-582=-582</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="calc-step">
+        <strong>🔢 步骤4：可分配盈余 DE<sub>t</sub></strong>
+        <div style="overflow-x: auto;">
+            <table>
+                <thead><tr><th>t</th><th>Profit<sub>t</sub></th><th>ΔRC<sub>t</sub></th><th>RC<sub>t-1</sub>×InvRate×0.75</th><th>DE<sub>t</sub> = Profit − ΔRC + Inv_RC</th></tr></thead>
+                <tbody>
+                    <tr><td>1</td><td>1,499</td><td>546</td><td>116×4%×0.75=3.48</td><td>1,499-546+3=956</td></tr>
+                    <tr><td>2</td><td>1,614</td><td>603</td><td>662×4%×0.75=19.86</td><td>1,614-603+20=1,031</td></tr>
+                    <tr><td>3</td><td>1,823</td><td>-173</td><td>1,265×4%×0.75=37.95</td><td>1,823+173+38=2,034</td></tr>
+                    <tr><td>4</td><td>2,400</td><td>-228</td><td>1,092×4%×0.75=32.76</td><td>2,400+228+33=2,661</td></tr>
+                    <tr><td>5</td><td>3,029</td><td>-282</td><td>864×4%×0.75=25.92</td><td>3,029+282+26=3,337</td></tr>
+                    <tr><td>6</td><td>8,805</td><td>-582</td><td>582×4%×0.75=17.46</td><td>8,805+582+17=9,404</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="calc-step">
+        <strong>🔢 步骤5：新业务价值 NBV 折现计算</strong>
+        <div style="overflow-x: auto;">
+            <table>
+                <thead><tr><th>t</th><th>DE<sub>t</sub></th><th>折现因子 (1+12.5%)<sup>-t</sup></th><th>现值</th></tr></thead>
+                <tbody>
+                    <tr><td>1</td><td>956</td><td>0.889</td><td>850</td></tr>
+                    <tr><td>2</td><td>1,031</td><td>0.790</td><td>814</td></tr>
+                    <tr><td>3</td><td>2,034</td><td>0.702</td><td>1,428</td></tr>
+                    <tr><td>4</td><td>2,661</td><td>0.624</td><td>1,660</td></tr>
+                    <tr><td>5</td><td>3,337</td><td>0.555</td><td>1,852</td></tr>
+                    <tr><td>6</td><td>9,404</td><td>0.493</td><td>4,636</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p><strong>NBV = 850 + 814 + 1,428 + 1,660 + 1,852 + 4,636 = 11,240 元（每份保单）。</strong><br>
+        新业务价值率 = 11,240 / (10,000×3) = 37.5%。</p>
+        <p>注：此数值明显高于实际产品（通常2%-8%），主要因为示例中后期利润过高。仅用于演示计算逻辑，不代表真实产品。</p>
+    </div>
+
+    <div class="insight">
+        💡 通过以上细化计算，我们可以清楚看到每一步的数值来源：保费收入、各项支出、投资收益、负债变动、要求资本变动、可分配盈余，最后折现得到NBV。这就是精算模型中的完整利润测试链条。
+    </div>
+
+    <h2>📌 十、新业务价值 vs 会计利润</h2>
+    <div style="overflow-x: auto;">
+        <table>
+            <thead><tr><th>维度</th><th>会计利润</th><th>新业务价值（NBV）</th> </tr</thead>
+            <tbody>
+                <tr><td style="font-weight:500;">基础</td><td>当期保费减赔付减费用减准备金变动</td><td>未来可分配盈余的现值</td> </tr
+                <tr><td style="font-weight:500;">时间</td><td>各年利润（受准备金节奏影响）</td><td>全生命周期一次性现值</td> </tr
+                <tr><td style="font-weight:500;">资本成本</td><td>不扣除要求资本成本</td><td>扣除要求资本变动及机会成本</td> </tr
+                <tr><td style="font-weight:500;">用途</td><td>财务报表</td><td>公司价值评估、新单盈利性评价</td> </tr
+            </tbody>
+        </table>
+    </div>
+
+    <h2>📌 十一、完整术语表（中英文对照）</h2>
+    <div style="overflow-x: auto;">
+        <table class="term-table">
+            <thead><tr><th>符号</th><th>英文全称</th><th>中文全称</th><th>一句话解释</th> </tr</thead>
+            <tbody>
+                <tr><td>NBV</td><td>New Business Value</td><td>新业务价值</td><td>新保单未来税后可分配盈余的现值</td> </tr
+                <tr><td>GP<sub>t</sub></td><td>Gross Premium</td><td>毛保费</td><td>保单年度 t 收取的总保费</td> </tr
+                <tr><td>Exp<sub>t</sub></td><td>Expenses</td><td>费用支出</td><td>佣金、管理费、监管费等</td> </tr
+                <tr><td>Claim<sub>t</sub></td><td>Claims</td><td>理赔支出</td><td>身故、重疾、生存金、满期金</td> </tr
+                <tr><td>Div<sub>t</sub></td><td>Dividends</td><td>红利支出</td><td>分红险分配给客户的红利</td> </tr
+                <tr><td>Liab<sub>t</sub></td><td>Liabilities</td><td>相应负债</td><td>寿险合同负债 + 剩余边际</td> </tr
+                <tr><td>RES<sub>t</sub></td><td>Statutory Reserve</td><td>寿险合同负债</td><td>偿付能力监管下的责任准备金</td> </tr
+                <tr><td>DPL<sub>t</sub></td><td>Deferred Profit Liability</td><td>剩余边际</td><td>不确认首日利得，未来利润蓄水池</td> </tr
+                <tr><td>MC<sub>t</sub></td><td>Minimum Capital</td><td>最低资本</td><td>偿二代二期下各风险最低资本之和</td> </tr
+                <tr><td>RC<sub>t</sub></td><td>Required Capital</td><td>要求资本</td><td>监管要求必须持有的资本</td> </tr
+                <tr><td>ΔRC<sub>t</sub></td><td>Change in RC</td><td>要求资本变动</td><td>当年新增或释放的要求资本</td> </tr
+                <tr><td>RDR</td><td>Risk Discount Rate</td><td>风险贴现率</td><td>股东要求的回报率，用于折现</td> </tr
+                <tr><td>InvRate</td><td>Investment Rate</td><td>投资收益率</td><td>资产端的年平均回报率</td> </tr
+                <tr><td>DE<sub>t</sub></td><td>Distributable Earnings</td><td>可分配盈余</td><td>真正能分给股东的现金流</td> </tr
+            </tbody>
+        </table>
+    </div>
+
+    <h2>📌 十二、总结：新业务价值全链条速记</h2>
+    <div class="highlight-box">
+        <strong>🔁 六步闭环</strong><br>
+        1️⃣ 现金流 → 保费、赔付、费用、红利<br>
+        2️⃣ 相应负债 Liab<sub>t</sub> = RES<sub>t</sub> + DPL<sub>t</sub>（含风险边际、TVOG）<br>
+        3️⃣ 税后利润 Profit<sub>t</sub> = 现金流 + 投资收益 − 负债增加<br>
+        4️⃣ 要求资本 RC<sub>t</sub> = max( MC<sub>t</sub> − (DPL<sub>t</sub>−DTL<sub>t</sub>), 0 )<br>
+        5️⃣ 可分配盈余 DE<sub>t</sub> = Profit<sub>t</sub> − ΔRC<sub>t</sub> + RC<sub>t-1</sub> × InvRate × (1−TaxRate)<br>
+        6️⃣ 新业务价值 NBV = Σ<sub>t=1</sub><sup>T</sup> DE<sub>t</sub> / (1+RDR)<sup>t</sup>
+    </div>
+    <div class="plain-talk">
+        <strong>📢 最终大白话</strong>：新业务价值就是剔除了“被监管锁住的资本”之后，股东真正能拿到手的未来利润的贴现值。它比会计利润更真实地反映了新保单对股东的价值贡献。
+    </div>
+
+    </div>
+</div>
+<div class="pager"><a href="06-准备金家族.html"><small>← 上一篇</small>分红保险的「准备金家族」</a><a class="next" href="08-定价决策框架.html"><small>下一篇 →</small>保证利率：1.75% 还是 1.5%</a></div>
+<footer class="colophon">精算师说保险 · 第二季 · 西红精算 · 只讲逻辑与方法<br>本文为专业内容，仅供学习交流，不构成任何投保建议；具体产品请以条款与官方信息披露为准。</footer>
+</main>
+<script src="js/kb.js"></script>
+</body>
+</html>

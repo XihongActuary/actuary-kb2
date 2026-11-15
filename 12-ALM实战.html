@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>分红险资产负债管理实战 · 精算师说保险 第二季</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-id="12">
+<button class="navbtn" type="button">☰ 目录</button>
+<aside class="side">
+  <div class="brand"><b>精算师说保险 · 第二季</b><span>分红险的精算内核——比第一季更深一层</span></div>
+  <nav>
+<div class="grp">导论 · 行业为什么转向</div>
+<a href="00-解药.html">00 · 低利率时代，分红险为何是「解药」</a>
+<div class="grp">定价内功 · 见山三部曲（第1～5篇）</div>
+<a href="01-见山是山.html">01 · 见山是山：定价原来可以这么简单</a>
+<a href="02-保费不是拍脑袋.html">02 · 见山不是山（一）：保费不是拍脑袋</a>
+<a href="03-现金价值与红利.html">03 · 见山不是山（二）：现金价值与红利</a>
+<a href="04-利润与价值.html">04 · 见山不是山（三）：利润与新业务价值</a>
+<a href="05-见山还是山.html">05 · 见山还是山：举重若轻，守住底线</a>
+<div class="grp">专业深耕 · 负债与价值（第6～12篇）</div>
+<a href="06-准备金家族.html">06 · 分红保险的「准备金家族」</a>
+<a href="07-NBV全流程拆解.html">07 · 新业务价值（NBV）全流程拆解</a>
+<a href="08-定价决策框架.html">08 · 保证利率：1.75% 还是 1.5%</a>
+<a href="09-分红特别储备.html">09 · 分红特别储备全解析</a>
+<a href="10-实现率限高.html">10 · 分红实现率「限高」背后</a>
+<a href="11-红利分配方案.html">11 · 红利分配：现金红利 vs 增额红利</a>
+<a href="12-ALM实战.html" class="on">12 · 分红险资产负债管理实战</a>
+<div class="grp">国际镜鉴（第13～14篇）</div>
+<a href="13-美国200年.html">13 · 美国分红保险 200 年</a>
+<a href="14-日本启示.html">14 · 日本低利率时代的分红险启示</a>
+<div class="grp">公司战略与管理实务（第15～18篇）</div>
+<a href="15-中小公司优势.html">15 · 中小公司做分红险的三大优势</a>
+<a href="16-渠道转型.html">16 · 渠道转型：从「卖收益」到「卖逻辑」</a>
+<a href="17-预定利率.html">17 · 预定利率还要降多少？</a>
+<a href="18-备案驳回.html">18 · 新产品备案被驳回的 5 个原因</a>
+<div class="grp">延伸 · 从公司到个人</div>
+<a href="19-资产配置.html">19 · 资产配置：先认识自己，再配置世界</a>
+<div class="grp">关于</div>
+<a href="xihong.html">关于 · 西红精算</a>
+  </nav>
+  <div class="prog-mini">已读 <b id="kb-mini">0 / 20</b> 页<br>点每页右下角按钮记录进度</div>
+</aside>
+<main class="main">
+<div class="art-host">
+<style>
+.art-host *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.art-host body{
+            background-color: #f5f7fa;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.7;
+            color: #2c3e4f;
+            padding: 20px 0 50px 0;
+        }
+.art-host .article-container{
+            max-width: 680px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            overflow: hidden;
+            padding: 32px 24px 48px 24px;
+        }
+
+.art-host h1{
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.3;
+            color: #1e3a5f;
+            margin-bottom: 12px;
+            letter-spacing: -0.3px;
+        }
+
+.art-host h2{
+            font-size: 22px;
+            font-weight: 700;
+            margin: 1.6em 0 0.6em 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #eef2f6;
+            color: #1e4663;
+        }
+.art-host h3{
+            font-size: 18px;
+            font-weight: 600;
+            margin: 1.2em 0 0.4em;
+            color: #2c5a7a;
+        }
+.art-host p{
+            font-size: 16px;
+            margin-bottom: 1em;
+            line-height: 1.75;
+        }
+.art-host /* 可复制的引用框 */
+        .insight-box{
+            background-color: #f0f7ff;
+            border-left: 5px solid #2c8fbb;
+            padding: 16px 20px;
+            margin: 1.4em 0;
+            border-radius: 16px;
+            color: #1a5d7a;
+        }
+.art-host .plain-talk{
+            background-color: #fef9e6;
+            border-left: 5px solid #f39c12;
+            padding: 14px 18px;
+            margin: 1.2em 0;
+            border-radius: 12px;
+            color: #7d5d2e;
+        }
+.art-host .alert-box{
+            background-color: #fee2e2;
+            border-left: 4px solid #dc2626;
+            padding: 16px 18px;
+            margin: 1.4em 0;
+            border-radius: 14px;
+        }
+.art-host .action-tips{
+            background-color: #eef2f7;
+            border-radius: 20px;
+            padding: 18px 22px;
+            margin: 1.8em 0;
+            border: 1px solid #dce5ec;
+        }
+.art-host table{
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5em 0;
+            font-size: 14px;
+            background-color: #fff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+.art-host th{
+            background-color: #1e4663;
+            color: white;
+            padding: 12px 10px;
+            font-weight: 600;
+            text-align: center;
+        }
+.art-host td{
+            padding: 10px 10px;
+            text-align: left;
+            border-bottom: 1px solid #e9edf2;
+            vertical-align: top;
+        }
+.art-host tr:last-child td{
+            border-bottom: none;
+        }
+
+
+.art-host ul,.art-host ol{
+            margin: 0.8em 0 1em 1.8em;
+        }
+.art-host li{
+            margin-bottom: 0.5em;
+            font-size: 15px;
+        }
+.art-host .concept-table{
+            margin: 1.5em 0;
+        }
+.art-host .concept-table th:first-child,.art-host .concept-table td:first-child{
+            width: 25%;
+        }
+.art-host .concept-table th:nth-child(2){
+            width: 30%;
+        }
+</style>
+<style>.art-host .article-container{max-width:800px}.chap-banner{margin:0 0 24px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden}.chap-banner svg{display:block;width:100%;height:auto}.flow-fig{margin:10px 0 30px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden;background:#fcf5e6}.flow-fig svg{display:block;width:100%;height:auto}.chap-meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:-6px 0 26px;padding:0 0 18px;border-bottom:1px solid #e0d8c4}.chap-meta span{font-size:12px;letter-spacing:1.5px;padding:4px 14px;border-radius:30px;border:1px solid #cfc5ab;color:#55524a;background:#fbf8f0}.chap-meta span.lvl{color:#9c3527;border-color:rgba(156,53,39,.4);background:rgba(156,53,39,.06);font-weight:bold}.art-host .article-container p{line-height:2.0 !important;margin:0 0 15px !important;font-size:15.5px !important;color:#33322c !important;font-family:inherit}.art-host .article-container li{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}.art-host .article-container td,.art-host .article-container th{line-height:1.8 !important;font-size:13.5px !important}.art-host .article-container h2{font-size:21px !important;color:#1c1b18 !important;margin:38px 0 16px !important;line-height:1.55 !important;letter-spacing:1.5px;font-family:var(--serif);border-left:4px solid #235c4c;padding-left:14px}.art-host .article-container h3{font-size:17px !important;color:#235c4c !important;margin:26px 0 12px !important;line-height:1.6 !important;font-family:var(--serif)}.art-host .article-container h4{font-size:15px !important;color:#1c1b18 !important;margin:18px 0 10px !important;line-height:1.6 !important}.art-host .article-container strong{color:#1c1b18 !important}.art-host .article-container a{color:#235c4c !important}.art-host .article-container hr{border:none;border-top:1px dashed #cfc5ab;margin:26px 0 !important}.art-host .article-container .formula,.art-host .article-container .math,.art-host .article-container .formula-box{background:#f7f3e8 !important;border-left:3px solid #a37715 !important;border-radius:10px !important;font-family:var(--serif) !important;color:#4a3d1e !important}.art-host .article-container .calc-step{background:#fbf8f0 !important;border:1px solid #e0d8c4 !important;border-radius:10px !important}.art-host .article-container .term-table,.art-host .article-container .concept-table,.art-host .article-container .phase-table{font-size:14px !important}.art-host .article-container .positive{color:#235c4c !important}.art-host .article-container .negative{color:#9c3527 !important}.art-host .article-container .shuorenhua,.art-host .article-container .alert-box,.art-host .article-container .insight,.art-host .article-container .insight-box,.art-host .article-container .highlight-box,.art-host .article-container .plain-talk,.art-host .article-container .action-tips,.art-host .article-container .warning-box,.art-host .article-container .concept-grid,.art-host .article-container .concept-cards,.art-host .article-container .concept-item,.art-host .article-container .concept-card{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}</style>
+<div class="article-container"><figure class="chap-banner"><svg viewBox="0 0 680 190" role="img" aria-label="章节插画：ALM 三重匹配"><rect width="680" height="190" fill="#fcf5e6"/><circle cx="598" cy="54" r="44" fill="#e6b45c" opacity="0.10"/><circle cx="598" cy="54" r="28" fill="#e6b45c" opacity="0.16"/><circle cx="598" cy="54" r="14" fill="#e6b45c" opacity="0.85"/><ellipse cx="340" cy="172" rx="305" ry="9" fill="#e3d5b4" opacity="0.5"/><rect x="110" y="56" width="200" height="34" rx="6" fill="#bf5638"/><text x="210" y="78" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">负债端 · 浮动利率</text><rect x="110" y="104" width="200" height="34" rx="6" fill="#3d7a66"/><text x="210" y="126" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">资产端 · 风险预算</text><path d="M370 90 h100" stroke="#3a3428" stroke-width="3"/><path d="M464 84 l10 6 -10 6 z" fill="#3a3428"/><rect x="490" y="56" width="104" height="30" rx="15" fill="#fffdf8" stroke="#c98f2b" stroke-width="2"/><text x="542" y="76" font-size="12" fill="#c98f2b" text-anchor="middle" font-family="serif">利差匹配</text><rect x="490" y="104" width="104" height="30" rx="15" fill="#fffdf8" stroke="#c98f2b" stroke-width="2"/><text x="542" y="124" font-size="12" fill="#c98f2b" text-anchor="middle" font-family="serif">久期匹配</text><rect x="490" y="146" width="104" height="30" rx="15" fill="#fffdf8" stroke="#c98f2b" stroke-width="2"/><text x="542" y="166" font-size="12" fill="#c98f2b" text-anchor="middle" font-family="serif">现金流匹配</text><text x="210" y="164" font-size="12" fill="#3a3428" font-family="serif">浮动机制 = 天然减震器</text></svg></figure><div class="chap-meta"><span class="lvl">难度 · 专业</span><span>主题 · 资产负债管理</span><span>第二季 · 第 12 篇</span></div>
+    <h1 class="article-title">分红险资产负债管理实战</h1>
+    <div class="subhead">不推销，只讲逻辑。花10分钟读完，比你自己研究一个月都有用。</div>
+
+    <p>很多朋友问：“分红险的收益到底靠不靠谱？低利率时代为什么都在推分红险？”——这些问题，都指向一个核心：<strong>分红险的资产负债管理（ALM）能力</strong>。</p>
+    <p>今天这篇文章，我尝试用最直白的话，把分红险ALM的<b>经营本质、监管硬指标、前端开发流程、新准则影响、两大关键流程、三大核心指标</b>一次性讲透。无论你是保险从业者还是想搞懂分红险的客户，都会有收获。</p>
+
+    <!-- 一、经营本质 -->
+    <h2>一、分红险经营的本质：四个关键词</h2>
+    <p>分红险不是“稳赚不赔”的理财，而是一种<strong>风险共担、收益共享</strong>的保险产品。保险公司经营分红险有四个核心目标：</p>
+    <table>
+        <thead><tr><th>经营目标</th><th>对公司的价值</th><th>对客户的意义</th></tr></thead>
+        <tbody>
+            <tr><td><strong>满足客户分红预期</strong></td><td>维持市场口碑、建立客户信任</td><td>拿到“浮动收益”，共享经营成果</td></tr>
+            <tr><td><strong>赚取利差</strong></td><td>投资收益超过保底成本的差额，公司按比例分成</td><td>客户同样按比例分享超额收益</td></tr>
+            <tr><td><strong>转移利率下行风险</strong></td><td>保底利率较低（1.0%-1.75%），市场利率下跌时风险主要由客户承担</td><td>保费更便宜，但也意味着“不保高收益”</td></tr>
+            <tr><td><strong>实现收益多元化</strong></td><td>可配置权益、另类资产，提高长期回报</td><td>长期持有有机会获得更高收益</td></tr>
+        </tbody>
+    </table>
+    <div class="plain-talk"><strong>说人话：</strong> 传统险像“固定工资”，公司赚不赚钱都要发；分红险像“底薪+奖金”，公司赚得多你分得多，赚得少你也不用抱怨。低利率时代，这算是保险公司和客户之间最好的“妥协”。</div>
+
+    <!-- 二、监管新规四大硬指标 -->
+    <h2>二、新规下的四大监管指标——寿险公司的“硬杠杠”</h2>
+    <div class="alert-box">
+        ⚠️ 2026年7月1日起施行的《保险公司资产负债管理办法》，标志着资产负债管理从“暂行办法”迈入“全面规管”阶段。不达标的公司将直接面临监管措施。
+    </div>
+    <p>新规设定了<strong>四项监管指标</strong>（另有七项为监测指标），每项都有明确的阈值要求：</p>
+    <table>
+        <thead><tr><th>指标名称</th><th>计算公式</th><th>监管阈值</th></tr></thead>
+        <tbody>
+            <tr><td><strong>有效久期缺口</strong></td><td>现金流流入有效久期－现金流流出有效久期</td><td>[-5年, +5年]</td></tr>
+            <tr><td><strong>综合投资收益覆盖率</strong></td><td>过去5年综合投资收益 ÷ 过去5年负债资金成本</td><td>≥100%</td></tr>
+            <tr><td><strong>净投资收益覆盖率</strong></td><td>过去3年净投资收益 ÷ 过去3年负债保证成本</td><td>≥100%</td></tr>
+            <tr><td><strong>压力情景下流动性覆盖率</strong></td><td>优质流动性资产 ÷ 未来12个月净现金流流出</td><td>≥100%</td></tr>
+        </tbody>
+    </table>
+    <div class="insight-box">
+        <strong>📐 精算解读：</strong><br>
+        • <strong>有效久期缺口</strong>：衡量资产和负债对利率的敏感度差异。缺口为负→利率下行时净资产受损；缺口为正→利率上行时净资产受损。<br>
+        • <strong>综合投资收益覆盖率</strong>：长期（5年）投资收益能否覆盖给客户的全部成本（含演示分红）。这是分红险最关键的指标。<br>
+        • <strong>净投资收益覆盖率</strong>：稳定的利息、股息收入能否覆盖刚性保证成本（预定利率）。这是底线指标。<br>
+        • <strong>流动性覆盖率</strong>：在最坏情况下（如市场恐慌+大量退保），手头的“救命钱”是否充足。
+    </div>
+
+    <!-- 三、产品开发前端ALM要求 -->
+    <h2>三、产品开发前端：ALM如何“前置介入”？</h2>
+    <p>很多公司产品开发是“精算部自己说了算”，但监管和实务都要求<strong>资产管理部必须前置参与</strong>。</p>
+    <ul>
+        <li><strong>评估投资风险</strong>：市场风险、信用风险、流动性风险。</li>
+        <li><strong>提出匹配策略</strong>：“长钱长配、短钱短配、高保证配低波动”。</li>
+        <li><strong>判断是否“重大影响产品”</strong>：如预计年保费占公司总保费10%以上、负债久期超15年、需新设投资账户等，必须提交执委会审议。</li>
+        <li><strong>出具书面意见</strong>，并留档备查。</li>
+    </ul>
+    <div class="insight-box"><strong>精算师视角：</strong> 不是所有产品都需要上执委会，但“主推产品”和“创新产品”一定要走这个流程。否则等产品上市后才发现投资端跟不上，就晚了。</div>
+
+    <!-- 四、IFRS 17新准则影响 -->
+    <h2>四、IFRS 17新准则：分红险的三大颠覆性变化</h2>
+    <p>2026年起，所有保险公司全面实施新会计准则。对分红险的影响是颠覆性的：</p>
+    <ul>
+        <li><strong>准备金评估方法：VFA（浮动收费法）</strong><br>分红险负债直接跟随资产端公允价值变动（“照镜子”效应），资产波动被CSM（合同服务边际）吸收。一旦CSM被击穿，波动直接冲击当期利润。</li>
+        <li><strong>资产分类策略</strong><br>高股息股票可指定为FVOCI（股息进利润、价变动进OCI），权益基金通常FVTPL（波动进利润，但VFA下被CSM吸收）。分红险账户可以更大比例配置权益资产。</li>
+        <li><strong>利润稳定性取决于CSM厚度</strong><br>厚利合同组+充足特储，击穿概率接近于0；薄利合同组且无特储吸收，击穿概率可达30-40%。</li>
+    </ul>
+    <div class="plain-talk"><strong>说人话：</strong> 新准则下，分红险更像一个“投资管理账户”。保险公司赚的不是赌大小的钱，而是“管理费”。只要管得好、安全垫厚，利润就会稳定释放。</div>
+
+    <!-- 五、两大辩证关系 -->
+    <h2>五、两大辩证关系：业务↔ALM</h2>
+    <h3>辩证关系1：分红险新业务 → 改善ALM</h3>
+    <p><strong>1. 新业务负债端成本低</strong>：保证成本约1.0-1.75%（存量传统险约3.2%），能系统性降低公司整体负债成本。<br>
+    <strong>2. 拉长资产久期</strong>：分红险负债期限长（10年以上），有助于缩小久期缺口。<br>
+    <strong>3. 提升投资收益弹性</strong>：可配置更高比例权益（20-30%），波动由CSM吸收，不直接冲击利润表。<br>
+    <strong>4. 增强偿付能力</strong>：新业务CSM增加实际资本，风险因子较低，提升偿付能力充足率。</p>
+    <div class="insight-box"><strong>精算师点评：</strong> 推动分红险转型，不是“为了监管合规”，而是实实在在改善公司资产负债基本面的战略选择。</div>
+    
+    <h3>辩证关系2：ALM → 影响红利分配</h3>
+    <p>根据《分红保险管理暂行办法》，保险公司应将<strong>可分配盈余的70%以上</strong>分配给客户。<br>可分配盈余 = 投资收益 - 保底成本 - 费用 - 风险准备金 - 公司留存。</p>
+    <ul>
+        <li><strong>第一层：投资收益率</strong>——资产配置决定实际收益，收益高→分红高。</li>
+        <li><strong>第二层：平滑机制</strong>——丰年多留特储，歉年动用特储，维持分红稳定。特储/准备金比率通常5-15%。</li>
+        <li><strong>第三层：CSM厚度</strong>——CSM越厚，吸收波动能力越强，分红越可持续。</li>
+    </ul>
+    <p><strong>管理建议：分红决策必须“三看”</strong>——看当期投资收益、看特储水位、看未来投资展望。预期利率下行时，提前降低分红演示，避免“前高后低”。</p>
+
+    <!-- 六、三大ALM指标详解 -->
+    <h2>六、三大ALM指标详解（负债端+资产端视角）</h2>
+    <p>以下三个指标是监管量化评估的核心，也是管理层必须看懂的管理工具。</p>
+    <table>
+        <thead><tr><th>指标</th><th>计算公式</th><th>资产端含义</th><th>负债端含义</th><th>理想区间</th></tr></thead>
+        <tbody>
+            <tr><td><strong>规模调整后修正久期缺口</strong></td><td>(资久×资PV+负入久×负入PV)/负出PV - 负出久</td><td>资产现金流加权久期</td><td>负债现金流流出时间分布</td><td>[-2,2]年最佳，新规[-5,5]</td></tr>
+            <tr><td><strong>综合投资收益覆盖率</strong></td><td>过去5年平均综合投资收益率 ÷ 负债资金成本率</td><td>实际赚到的钱（含浮盈浮亏）</td><td>承诺给客户的全部成本（保证+预期分红）</td><td>≥100%</td></tr>
+            <tr><td><strong>净投资收益覆盖率</strong></td><td>过去3年净投资收益率 ÷ 负债保证成本率</td><td>稳定的利息、股息收入</td><td>刚性保证成本（预定利率）</td><td>≥100%</td></tr>
+        </tbody>
+    </table>
+    <div class="insight-box"><strong>精算师点评：</strong> 这两个覆盖率指标一“宽”一“严”。净投资覆盖率看“底线能力”，综合投资覆盖率看“长期能力”。两个都要≥100%，才算真正的成本收益匹配。</div>
+
+    <!-- 七、两大关键流程全景图 -->
+    <h2>七、两大关键流程：ALM如何贯穿始终？</h2><figure class="flow-fig"><svg viewBox="0 0 680 220" role="img" aria-label="流程图：分红险 ALM · 资金流闭环"><rect width="680" height="220" fill="#fcf5e6"/><circle cx="608" cy="50" r="38" fill="#e6b45c" opacity="0.10"/><circle cx="608" cy="50" r="23" fill="#e6b45c" opacity="0.16"/><circle cx="608" cy="50" r="11" fill="#e6b45c" opacity="0.85"/><ellipse cx="340" cy="206" rx="300" ry="8" fill="#e3d5b4" opacity="0.5"/><text x="340" y="34" font-size="15" fill="#3a3428" text-anchor="middle" font-family="serif" letter-spacing="2">分红险 ALM · 资金流闭环</text><rect x="65" y="90" width="118" height="44" rx="8" fill="#3d7a66"/><text x="124" y="117" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">保费流入</text><path d="M183 112 h14" stroke="#3a3428" stroke-width="2.5"/><path d="M197 106 l9 6 -9 6 z" fill="#3a3428"/><rect x="209" y="90" width="118" height="44" rx="8" fill="#c98f2b"/><text x="268" y="117" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">投资运用</text><path d="M327 112 h14" stroke="#3a3428" stroke-width="2.5"/><path d="M341 106 l9 6 -9 6 z" fill="#3a3428"/><rect x="353" y="90" width="118" height="44" rx="8" fill="#c98f2b"/><text x="412" y="117" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">资产端收益</text><path d="M471 112 h14" stroke="#3a3428" stroke-width="2.5"/><path d="M485 106 l9 6 -9 6 z" fill="#3a3428"/><rect x="497" y="90" width="118" height="44" rx="8" fill="#bf5638"/><text x="556" y="117" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">红利分配</text><path d="M585 136 C 585 184 95 184 95 138" fill="none" stroke="#e3d5b4" stroke-width="2" stroke-dasharray="5 5"/><path d="M91 148 l4 -10 8 6 z" fill="#e3d5b4"/><text x="340" y="182" font-size="12" fill="#3a3428" text-anchor="middle" font-family="serif">客户续期 · 信任回流 · 闭环完成</text><text x="340" y="60" font-size="13" fill="#3a3428" text-anchor="middle" font-family="serif" letter-spacing="1">浮动机制贯穿始终——每一环都有减震器</text></svg></figure>
+    <h3>流程一：从产品开发到红利分配（全生命周期）</h3>
+    <table>
+        <thead><tr><th>环节</th><th>ALM核心动作</th><th>输出物</th></tr></thead>
+        <tbody>
+            <tr><td>1. 产品企划</td><td>提出产品形态、期限、保底利率、预期分红水平</td><td>《产品概念书》</td></tr>
+            <tr><td>2. 精算定价</td><td>测算负债久期、保证成本、CSM初始额</td><td>《定价模型及敏感性测试》</td></tr>
+            <tr><td>3. ALM评估</td><td>评估资产久期匹配、判断是否重大影响产品、提出配置方案</td><td>《资产负债匹配影响评估报告》</td></tr>
+            <tr><td>4. 产品审批</td><td>执委会/资负委审议</td><td>会议纪要、审批意见</td></tr>
+            <tr><td>5. 上市销售</td><td>按审批通过的分红策略执行</td><td>销售材料</td></tr>
+            <tr><td>6. 持续监测</td><td>每季度回溯投资收益、CSM、特储水位</td><td>《季度ALM监测简报》</td></tr>
+            <tr><td>7. 红利分配</td><td>根据实际收益、特储、未来预期确定分红水平</td><td>《年度红利分配方案》</td></tr>
+            <tr><td>8. 回溯优化</td><td>对比预期与实际偏差，调整演示或定价假设</td><td>《产品回溯分析报告》</td></tr>
+        </tbody>
+    </table>
+
+    <h3>流程二：从保费进来到红利分配（资金流闭环）</h3>
+    <table>
+        <thead><tr><th>环节</th><th>ALM核心动作</th><th>风险监控点</th></tr></thead>
+        <tbody>
+            <tr><td>1. 保费收入</td><td>确认负债端流入现金流的时间、金额</td><td>实际保费 vs 业务计划偏差</td></tr>
+            <tr><td>2. 进入分红账户</td><td>区分存量与新增资金，匹配流动性需求</td><td>资金闲置、再投资压力</td></tr>
+            <tr><td>3. 资产配置</td><td>根据负债久期和成本确定SAA，预留流动性资产</td><td>久期缺口、成本收益差额</td></tr>
+            <tr><td>4. 投资运作</td><td>执行配置计划，动态调整（TAA）</td><td>市场风险、信用风险、流动性风险</td></tr>
+            <tr><td>5. 收益归集</td><td>区分净投资收益与资本利得</td><td>净投资收益 vs 保证成本</td></tr>
+            <tr><td>6. 计算可分配盈余</td><td>扣除保底成本、费用、风险准备金</td><td>可分配盈余的合理性</td></tr>
+            <tr><td>7. 红利分配</td><td>确定分红水平及平滑特储留成</td><td>分红水平 vs 客户预期</td></tr>
+            <tr><td>8. 客户账户</td><td>披露红利实现率</td><td>实现率偏差的声誉风险</td></tr>
+        </tbody>
+    </table>
+
+    <!-- 八、资产配置“三仓法” -->
+    <h2>八、分红账户资产配置“三仓法”</h2>
+    <ul>
+        <li><strong>战略仓（60%-70%）</strong>：长久期债券、基础设施债权、高分红蓝筹股 → 匹配久期，覆盖保证成本。</li>
+        <li><strong>情境仓（20%-30%）</strong>：中期交易性债券、高等级信用债、REITs → 灵活调整，增厚分红。</li>
+        <li><strong>战术仓（5%-10%）</strong>：权益类、可转债、私募股权基金 → 博取超额收益，严格限额。</li>
+    </ul>
+    <div class="plain-talk"><strong>说人话：</strong> 战略仓是压舱石，买长债锁定收益，保证客户保底；情境仓是调节器，市场好时赚一波；战术仓是进攻部队，少量资金搏高收益。三个仓位互相配合，既稳又有弹性。</div>
+
+    <!-- 九、压力测试案例 -->
+    <h2>九、压力测试案例：利率下降200bp的影响</h2>
+    <p>假设某分红账户资产久期8年，负债久期15年（缺口-7年），资产配置70%债券、20%存款及另类、10%权益。利率下降200bp：</p>
+    <table>
+        <thead><tr><th>项目</th><th>利率下降前</th><th>利率下降200bp后</th><th>变化</th></tr></thead>
+        <tbody>
+            <tr><td>资产市值</td><td>100亿</td><td>约108亿（债券价格上升）</td><td>+8%</td></tr>
+            <tr><td>负债现值</td><td>95亿</td><td>约105亿（折现率下降）</td><td>+10.5%</td></tr>
+            <tr><td>净资产</td><td>5亿</td><td>3亿</td><td>-40%</td></tr>
+            <tr><td>综合投资收益率（当年）</td><td>4.2%</td><td>3.5%</td><td>-70bp</td></tr>
+            <tr><td>综合投资收益覆盖率（5年均值）</td><td>115%</td><td>108%</td><td>下降但仍达标</td></tr>
+        </tbody>
+    </table>
+    <div class="insight-box"><strong>实操建议：</strong> 每季度做一次利率情景测试（±50bp、±100bp、±200bp），建立预警机制：当有效久期缺口绝对值超过4年时，启动资产再平衡。</div>
+
+    <!-- 十、ALM体系建设检查清单 -->
+    <h2>十、ALM体系建设检查清单（精算/资管必做）</h2>
+    <ul>
+        <li><strong>制度层面</strong>：□ 书面ALM政策与风险偏好？ □ 设立资产负债管理委员会（ALCO），每季度开会？ □ 分红账户独立核算及资产隔离规则？</li>
+        <li><strong>模型与数据</strong>：□ ALM模型（含久期、凸性、现金流匹配）？ □ 定期更新负债现金流预测（含退保、红利选择权）？ □ 压力测试工具（利率、权益、信用）？</li>
+        <li><strong>执行与监控</strong>：□ 每月监控久期缺口、收益率覆盖率？ □ 预警阈值及调整流程？ □ ALM指标纳入投资经理绩效考核？</li>
+        <li><strong>报表披露</strong>：□ 偿付能力报告中充分披露ALM信息？ □ 向董事会定期报告ALM状况及改进计划？</li>
+    </ul>
+
+    <!-- 核心概念速记卡 - 表格模式 -->
+    <h2>📌 核心概念速记卡</h2>
+    <table class="concept-table">
+        <thead>
+            <tr><th>中文</th><th>英文</th><th>一句话大白话</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>有效久期缺口</td><td>Effective Duration Gap</td><td>资产久期-负债久期，尽量接近0</td></tr>
+            <tr><td>综合投资收益覆盖率</td><td>Total Return Coverage</td><td>长期投资收益是否覆盖全部成本</td></tr>
+            <tr><td>净投资收益覆盖率</td><td>Net Investment Coverage</td><td>稳定利息够不够付客户的“保底工资”</td></tr>
+            <tr><td>浮动收费法</td><td>Variable Fee Approach (VFA)</td><td>分红险负债跟着资产走，波动由CSM吸收</td></tr>
+            <tr><td>CSM击穿</td><td>CSM Run-off</td><td>安全垫磨没了，波动直接砸利润表</td></tr>
+            <tr><td>分红特储</td><td>Dividend Smoothing Reserve</td><td>丰年存的“余粮”，歉年补亏用</td></tr>
+            <tr><td>三仓法</td><td>Three-bucket Approach</td><td>战略仓+情境仓+战术仓</td></tr>
+            <tr><td>流动性覆盖率</td><td>Liquidity Coverage Ratio</td><td>应对集中退保和红利支付</td></tr>
+        </tbody>
+    </table>
+
+    <!-- 结尾签名 -->
+    </div>
+</div>
+<div class="pager"><a href="11-红利分配方案.html"><small>← 上一篇</small>红利分配：现金红利 vs 增额红利</a><a class="next" href="13-美国200年.html"><small>下一篇 →</small>美国分红保险 200 年</a></div>
+<footer class="colophon">精算师说保险 · 第二季 · 西红精算 · 只讲逻辑与方法<br>本文为专业内容，仅供学习交流，不构成任何投保建议；具体产品请以条款与官方信息披露为准。</footer>
+</main>
+<script src="js/kb.js"></script>
+</body>
+</html>

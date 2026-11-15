@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>见山不是山（一）：保费不是拍脑袋 · 精算师说保险 第二季</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-id="02">
+<button class="navbtn" type="button">☰ 目录</button>
+<aside class="side">
+  <div class="brand"><b>精算师说保险 · 第二季</b><span>分红险的精算内核——比第一季更深一层</span></div>
+  <nav>
+<div class="grp">导论 · 行业为什么转向</div>
+<a href="00-解药.html">00 · 低利率时代，分红险为何是「解药」</a>
+<div class="grp">定价内功 · 见山三部曲（第1～5篇）</div>
+<a href="01-见山是山.html">01 · 见山是山：定价原来可以这么简单</a>
+<a href="02-保费不是拍脑袋.html" class="on">02 · 见山不是山（一）：保费不是拍脑袋</a>
+<a href="03-现金价值与红利.html">03 · 见山不是山（二）：现金价值与红利</a>
+<a href="04-利润与价值.html">04 · 见山不是山（三）：利润与新业务价值</a>
+<a href="05-见山还是山.html">05 · 见山还是山：举重若轻，守住底线</a>
+<div class="grp">专业深耕 · 负债与价值（第6～12篇）</div>
+<a href="06-准备金家族.html">06 · 分红保险的「准备金家族」</a>
+<a href="07-NBV全流程拆解.html">07 · 新业务价值（NBV）全流程拆解</a>
+<a href="08-定价决策框架.html">08 · 保证利率：1.75% 还是 1.5%</a>
+<a href="09-分红特别储备.html">09 · 分红特别储备全解析</a>
+<a href="10-实现率限高.html">10 · 分红实现率「限高」背后</a>
+<a href="11-红利分配方案.html">11 · 红利分配：现金红利 vs 增额红利</a>
+<a href="12-ALM实战.html">12 · 分红险资产负债管理实战</a>
+<div class="grp">国际镜鉴（第13～14篇）</div>
+<a href="13-美国200年.html">13 · 美国分红保险 200 年</a>
+<a href="14-日本启示.html">14 · 日本低利率时代的分红险启示</a>
+<div class="grp">公司战略与管理实务（第15～18篇）</div>
+<a href="15-中小公司优势.html">15 · 中小公司做分红险的三大优势</a>
+<a href="16-渠道转型.html">16 · 渠道转型：从「卖收益」到「卖逻辑」</a>
+<a href="17-预定利率.html">17 · 预定利率还要降多少？</a>
+<a href="18-备案驳回.html">18 · 新产品备案被驳回的 5 个原因</a>
+<div class="grp">延伸 · 从公司到个人</div>
+<a href="19-资产配置.html">19 · 资产配置：先认识自己，再配置世界</a>
+<div class="grp">关于</div>
+<a href="xihong.html">关于 · 西红精算</a>
+  </nav>
+  <div class="prog-mini">已读 <b id="kb-mini">0 / 20</b> 页<br>点每页右下角按钮记录进度</div>
+</aside>
+<main class="main">
+<div class="art-host">
+<style>
+.art-host *{ margin: 0; padding: 0; box-sizing: border-box; }
+.art-host body{ background-color: #f9fafb; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.7; color: #1f2d3d; padding: 24px 0 48px 0; }
+.art-host .article-container{ max-width: 640px; margin: 0 auto; background-color: #ffffff; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.03); overflow: hidden; padding: 32px 24px 48px 24px; }
+.art-host .article-title{ font-size: 26px; font-weight: 700; line-height: 1.35; color: #1e3a5f; margin-bottom: 8px; letter-spacing: -0.3px; }
+.art-host .article-sub{ font-size: 15px; color: #7c8ba0; border-left: 3px solid #e67e22; margin-bottom: 28px; font-weight: 400; background: #fef9f0; padding: 12px 16px; border-radius: 12px; }
+.art-host p{ font-size: 16px; margin-bottom: 1.2em; color: #2c3e4f; line-height: 1.75; }
+.art-host h2{ font-size: 22px; font-weight: 700; margin: 1.6em 0 0.8em 0; padding-bottom: 8px; border-bottom: 2px solid #eef2f6; color: #1e4663; }
+.art-host h3{ font-size: 18px; font-weight: 600; margin: 1.4em 0 0.6em 0; color: #2c5a7a; }
+.art-host .highlight-box{ background: linear-gradient(135deg, #f0f7ff 0%, #e8f0fa 100%); border-left: 5px solid #2c8fbb; padding: 18px 20px; margin: 1.6em 0; border-radius: 16px; font-size: 17px; font-weight: 500; color: #1a5d7a; }
+.art-host .plain-talk{ background-color: #fef9e6; border-left: 5px solid #f39c12; padding: 14px 18px; margin: 1.3em 0; font-size: 15px; color: #7d5d2e; border-radius: 12px; }
+.art-host .insight{ background-color: #eef7fa; border-left: 6px solid #2c8fbb; padding: 18px 20px; margin: 1.6em 0; border-radius: 16px; font-size: 16px; color: #1a5d7a; }
+.art-host .formula{ background-color: #f4f9fc; border-radius: 14px; padding: 12px 16px; margin: 1.2em 0; font-family: 'Courier New', monospace; font-size: 14px; text-align: center; border: 1px solid #cde5ed; overflow-x: auto; white-space: pre-wrap; word-break: break-word; line-height: 1.8; }
+.art-host table{ width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 14px; background-color: #fff; border-radius: 14px; overflow-x: auto; display: block; }
+.art-host th{ background-color: #1e4663; color: white; padding: 12px 8px; font-weight: 600; text-align: center; }
+.art-host td{ padding: 10px 8px; text-align: left; border-bottom: 1px solid #e9edf2; background-color: #fff; vertical-align: top; }
+.art-host ul,.art-host ol{ margin: 1em 0 1.2em 1.8em; }
+.art-host li{ margin-bottom: 0.5em; font-size: 16px; }
+
+
+
+@media (max-width: 600px){.art-host .article-container{ padding: 24px 18px 36px 18px; }
+.art-host .article-title{ font-size: 22px; }
+.art-host p,.art-host li{ font-size: 15px; }
+.art-host th,.art-host td{ font-size: 12px; padding: 8px 4px; }
+.art-host .formula{ font-size: 12px; }}
+.art-host sub,.art-host sup{ font-size: 0.75em; line-height: 1; }
+</style>
+<style>.art-host .article-container{max-width:800px}.chap-banner{margin:0 0 24px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden}.chap-banner svg{display:block;width:100%;height:auto}.flow-fig{margin:10px 0 30px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden;background:#fcf5e6}.flow-fig svg{display:block;width:100%;height:auto}.chap-meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:-6px 0 26px;padding:0 0 18px;border-bottom:1px solid #e0d8c4}.chap-meta span{font-size:12px;letter-spacing:1.5px;padding:4px 14px;border-radius:30px;border:1px solid #cfc5ab;color:#55524a;background:#fbf8f0}.chap-meta span.lvl{color:#9c3527;border-color:rgba(156,53,39,.4);background:rgba(156,53,39,.06);font-weight:bold}.art-host .article-container p{line-height:2.0 !important;margin:0 0 15px !important;font-size:15.5px !important;color:#33322c !important;font-family:inherit}.art-host .article-container li{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}.art-host .article-container td,.art-host .article-container th{line-height:1.8 !important;font-size:13.5px !important}.art-host .article-container h2{font-size:21px !important;color:#1c1b18 !important;margin:38px 0 16px !important;line-height:1.55 !important;letter-spacing:1.5px;font-family:var(--serif);border-left:4px solid #235c4c;padding-left:14px}.art-host .article-container h3{font-size:17px !important;color:#235c4c !important;margin:26px 0 12px !important;line-height:1.6 !important;font-family:var(--serif)}.art-host .article-container h4{font-size:15px !important;color:#1c1b18 !important;margin:18px 0 10px !important;line-height:1.6 !important}.art-host .article-container strong{color:#1c1b18 !important}.art-host .article-container a{color:#235c4c !important}.art-host .article-container hr{border:none;border-top:1px dashed #cfc5ab;margin:26px 0 !important}.art-host .article-container .formula,.art-host .article-container .math,.art-host .article-container .formula-box{background:#f7f3e8 !important;border-left:3px solid #a37715 !important;border-radius:10px !important;font-family:var(--serif) !important;color:#4a3d1e !important}.art-host .article-container .calc-step{background:#fbf8f0 !important;border:1px solid #e0d8c4 !important;border-radius:10px !important}.art-host .article-container .term-table,.art-host .article-container .concept-table,.art-host .article-container .phase-table{font-size:14px !important}.art-host .article-container .positive{color:#235c4c !important}.art-host .article-container .negative{color:#9c3527 !important}.art-host .article-container .shuorenhua,.art-host .article-container .alert-box,.art-host .article-container .insight,.art-host .article-container .insight-box,.art-host .article-container .highlight-box,.art-host .article-container .plain-talk,.art-host .article-container .action-tips,.art-host .article-container .warning-box,.art-host .article-container .concept-grid,.art-host .article-container .concept-cards,.art-host .article-container .concept-item,.art-host .article-container .concept-card{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}</style>
+<div class="article-container"><figure class="chap-banner"><svg viewBox="0 0 680 190" role="img" aria-label="章节插画：精算模型暗箱"><rect width="680" height="190" fill="#fcf5e6"/><circle cx="598" cy="54" r="44" fill="#e6b45c" opacity="0.10"/><circle cx="598" cy="54" r="28" fill="#e6b45c" opacity="0.16"/><circle cx="598" cy="54" r="14" fill="#e6b45c" opacity="0.85"/><ellipse cx="340" cy="172" rx="305" ry="9" fill="#e3d5b4" opacity="0.5"/><rect x="200" y="52" width="280" height="86" rx="10" fill="#fffdf8" stroke="#3a3428" stroke-width="2.5"/><line x1="226" y1="76" x2="454" y2="76" stroke="#e3d5b4" stroke-width="2"/><line x1="226" y1="96" x2="430" y2="96" stroke="#e3d5b4" stroke-width="2"/><line x1="226" y1="116" x2="440" y2="116" stroke="#e3d5b4" stroke-width="2"/><circle cx="170" cy="95" r="8" fill="#c98f2b"/><circle cx="510" cy="95" r="8" fill="#3d7a66"/><path d="M178 95 h22 M480 95 h22" stroke="#3a3428" stroke-width="2.5"/><text x="340" y="160" font-size="13" fill="#3a3428" text-anchor="middle" font-family="serif">生命表 · 利息理论 · 准备金 · 偿付能力</text></svg></figure><div class="chap-meta"><span class="lvl">难度 · 进阶</span><span>主题 · 精算模型</span><span>第二季 · 第 02 篇</span></div>
+    <h1 class="article-title">见山不是山（一）：保费不是拍脑袋</h1>
+    <div class="article-sub">不推销，只讲逻辑。花10分钟读完，比你自己研究一个月都有用。</div>
+
+    <p>上一篇我们见识了<strong>“见山是山”</strong>的魅力：产品定价可以用1+1=2的简单逻辑，快速算出客户收益、渠道费用和公司利润。但那个“简单”是精算师刻意封装的结果——为了让你快速理解，我们把复杂的敏感性分析、风险模型、资本占用等统统藏进了“暗箱”。</p>
+    <p>这一篇，我们就打开暗箱，走进<strong>“见山不是山”</strong>的第一站：保费计算的精算内核。你会发现，保费真的不是“拍脑袋”，而是基于精算师考试体系的数理模型、监管规则、公司战略和市场竞争等多重博弈的结果。</p>
+
+    <div class="highlight-box">
+        🧭 <strong>一句话核心</strong><br>
+        保费 = 风险保费 + 储蓄保费 + 附加费用。其中每一项都要用<strong>精算现值</strong>（考虑时间价值和死亡/退保概率）计算，背后是利息理论、生命表、准备金评估等专业体系，并受到监管“报行合一”、预定利率动态调整、第四套生命表等新规的硬约束。
+    </div>
+
+    <h2>📌 一、收支相等原则的精算表达：从算术到微积分</h2>
+    <p>上一篇我们用了“收支相等”的定性原则。但在精算模型里，这个原则要用严格的公式表达：</p>
+    <div class="formula">
+        <span class="math">∑<sub>t=1</sub><sup>pt</sup> [ GP × (1 - e<sub>t</sub>) × v<sup>t-1</sup> × ℓ<sub>x+t-1</sub> ]</span>
+        <span style="margin:0 6px;"> = </span>
+        <span class="math">∑<sub>t=1</sub><sup>bt</sup> [ DB<sub>t</sub> × v<sup>t-0.5</sup> × ℓ<sub>x+t-1</sub> × q<sub>x+t-1</sub> + SB<sub>t</sub> × v<sup>t</sup> × ℓ<sub>x+t</sub> ] + MB × v<sup>bt</sup> × ℓ<sub>x+bt</sub></span>
+    </div>
+    <p>其中：</p>
+    <ul>
+        <li><strong>GP</strong>：年交保费（等额）</li>
+        <li><strong>e<sub>t</sub></strong>：第t年的附加费用率</li>
+        <li><strong>v = 1/(1+i)</strong>：折现因子，i为预定利率</li>
+        <li><strong>ℓ<sub>x</sub></strong>：生存人数（从生命表获得）</li>
+        <li><strong>q<sub>x</sub></strong>：死亡率</li>
+        <li><strong>DB<sub>t</sub>, SB<sub>t</sub>, MB</strong>：身故金、生存金、满期金</li>
+    </ul>
+    <p>这个公式通俗解释就是：<strong>把未来每年要付出的赔付、满期金、费用，按照生存概率和死亡概率加权，再按预定利率折现到今天，总和应该等于客户缴纳的保费按同样规则折现的总额。</strong></p>
+    <div class="plain-talk">
+        <strong>📢 说人话</strong>：这就像你要在未来10年每年给孩子存教育金，你不知道自己能活多久（死亡概率），也不知道物价会不会涨（折现率）。精算师用生命表、预定利率等工具，把不确定的未来变成今天的一个确定数字——那就是保费。
+    </div>
+
+    <h2>📌 二、精算师考试体系：三年磨一剑的知识支撑</h2>
+    <p>上面的公式，只是精算模型里的冰山一角。要真正掌握保费计算，精算师必须通过一系列专业考试，建立完整的知识体系。以中国精算师考试为例，与产品定价直接相关的科目包括：</p>
+    <ul>
+        <li><strong>寿险精算</strong>：定价原理、准备金评估、利润测试、内含价值</li>
+        <li><strong>利息理论</strong>：折现、年金、久期、凸度</li>
+        <li><strong>生命表与人口统计</strong>：死亡率、生存模型、生命表编制</li>
+        <li><strong>风险理论</strong>：损失分布、破产概率</li>
+        <li><strong>精算模型</strong>：随机模拟、马尔可夫链、信度理论</li>
+        <li><strong>保险公司财务管理</strong>：资本管理、偿付能力、资产负债管理</li>
+    </ul>
+    <p>一个准精算师平均需要3-5年才能完成这些考试。所以，保费不是“拍脑袋”，而是通过无数个日日夜夜的公式推导、假设验证、模型调参，才最终敲定的。</p>
+    <div class="insight">
+        💡 很多外行觉得精算师就是“算算数”，但精算师的价值恰恰在于：他能在无数不确定的风险中，用数学工具把未来的不确定性转化为今天确定的保费，并且确保公司不会因为定价失误而破产。这是科学，也是艺术。
+    </div>
+
+    <h2>📌 三、监管新规：给定价套上“紧箍咒”</h2>
+    <p>精算师不能随心所欲地定价格，监管已经划定了清晰的边界。对分红险定价影响最大的几条新规：</p>
+    <ul>
+        <li><strong>预定利率动态调整机制</strong>（2024年）：预定利率与市场利率（5年期LPR、10年期国债等）挂钩，连续两季度差值超25bp就必须调整。目前分红险预定利率上限已降至1.75%，且未来还会下降。</li>
+        <li><strong>“报行合一”</strong>：精算报告中的附加费用率必须与实际费用一致。银保渠道总费用按“精算附加费用率”和“实际支付费用”孰低原则认定。保险公司不能再暗地里给渠道“加费用”。</li>
+        <li><strong>第四套生命表（2025年）</strong>：死亡率平均下降20%，预期寿命提升。保障型产品（定期寿险）保费会下降，养老年金保费可能上涨3%-5%。</li>
+        <li><strong>分红险演示利率上限下调至3.5%</strong>（2026年4月）：新报备产品立即执行，既有产品过渡期至2026年6月30日。演示利率不能随便画饼了。</li>
+    </ul>
+    <p>这些新规，每一个都会直接改变精算模型里的参数：预定利率、死亡率、费用率、投资收益率假设。精算师必须时刻跟踪政策变化，并及时调整定价模型。</p>
+
+    <h2>📌 四、公司战略与渠道博弈：定价不是“数学最优”</h2>
+    <p>精算师算出一个“数学上最优”的保费并不难。但真正的挑战在于：这个保费要同时满足：</p>
+    <ul>
+        <li><strong>股东要求</strong>：新业务价值（NBV）必须为正，且达到一定的新业务价值率。不能卖得越多亏得越多。</li>
+        <li><strong>渠道诉求</strong>：银保、个险、中介都有自己的费用基本法。定价如果留的费用空间太低，渠道根本不推。</li>
+        <li><strong>市场竞争</strong>：同类产品如果竞品公司定价更低、演示收益更高，客户就会流失。精算师必须在“保利润”和“争市场”之间找平衡。</li>
+        <li><strong>客户接受度</strong>：保费太贵没人买，保费太便宜公司亏钱。精算师要通过大量的市场调研和利润测试，找到那个“黄金价格点”。</li>
+    </ul>
+    <div class="plain-talk">
+        <strong>📢 说人话</strong>：精算师手里有一个“调参盘”——预定利率、费用率、发生率、退保率、投资收益率……每个参数调一点点，保费和利润就会剧烈变化。他要把所有参数调到既能让渠道开心、客户满意，还能让股东赚钱，最后还得通过监管备案。这就是“戴着镣铐跳舞”。
+    </div>
+
+    <h2>📌 五、一个真实的调参案例：同样1.75%保证利率，演示利率该设3.5%还是3.9%？</h2>
+    <p>假设公司正在开发一款趸交5年期分红险。预定利率1.75%已经锁死，但演示利率（影响客户预期收益和红利实现率）可以选3.5%或3.9%。</p>
+    <p><strong>选择3.5%</strong>：演示红利相对保守，未来实际投资收益率只要达到3.5%，红利实现率就能100%以上，客户体验好。但市场竞争力可能稍弱（其他公司演示4.0%的话，客户会被吸引走）。</p>
+    <p><strong>选择3.9%</strong>：演示红利高，产品更好卖。但未来实际投资收益率如果只有3.5%，红利实现率就会低于100%（假设分配比例70%，实际利差(3.5%-1.75%)×70%=1.225%；演示利差(3.9%-1.75%)×70%=1.505%，实现率只有81%）。客户会投诉“分红没有演示那么多”。</p>
+    <p>精算师不能拍脑袋，而要用利润测试模型跑两种情景：</p>
+    <ul>
+        <li>假设未来投资收益率3.5%（悲观）、4.0%（基准）、4.5%（乐观）</li>
+        <li>计算两种演示利率下的新业务价值（NBV）、红利实现率敏感性、客户投诉风险。</li>
+        <li>结合渠道反馈和公司品牌策略，最终确定“3.5%演示+保守销售”或“3.9%演示+激进销售”。</li>
+    </ul>
+    <div class="insight">
+        💡 这就是为什么精算师不能只会“三元素法”。他必须精通利润测试、敏感性分析、风险管理，才能在多个目标之间找到最优解。
+    </div>
+
+    </div>
+</div>
+<div class="pager"><a href="01-见山是山.html"><small>← 上一篇</small>见山是山：定价原来可以这么简单</a><a class="next" href="03-现金价值与红利.html"><small>下一篇 →</small>见山不是山（二）：现金价值与红利</a></div>
+<footer class="colophon">精算师说保险 · 第二季 · 西红精算 · 只讲逻辑与方法<br>本文为专业内容，仅供学习交流，不构成任何投保建议；具体产品请以条款与官方信息披露为准。</footer>
+</main>
+<script src="js/kb.js"></script>
+</body>
+</html>

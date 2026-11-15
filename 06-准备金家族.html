@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>分红保险的「准备金家族」 · 精算师说保险 第二季</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-id="06">
+<button class="navbtn" type="button">☰ 目录</button>
+<aside class="side">
+  <div class="brand"><b>精算师说保险 · 第二季</b><span>分红险的精算内核——比第一季更深一层</span></div>
+  <nav>
+<div class="grp">导论 · 行业为什么转向</div>
+<a href="00-解药.html">00 · 低利率时代，分红险为何是「解药」</a>
+<div class="grp">定价内功 · 见山三部曲（第1～5篇）</div>
+<a href="01-见山是山.html">01 · 见山是山：定价原来可以这么简单</a>
+<a href="02-保费不是拍脑袋.html">02 · 见山不是山（一）：保费不是拍脑袋</a>
+<a href="03-现金价值与红利.html">03 · 见山不是山（二）：现金价值与红利</a>
+<a href="04-利润与价值.html">04 · 见山不是山（三）：利润与新业务价值</a>
+<a href="05-见山还是山.html">05 · 见山还是山：举重若轻，守住底线</a>
+<div class="grp">专业深耕 · 负债与价值（第6～12篇）</div>
+<a href="06-准备金家族.html" class="on">06 · 分红保险的「准备金家族」</a>
+<a href="07-NBV全流程拆解.html">07 · 新业务价值（NBV）全流程拆解</a>
+<a href="08-定价决策框架.html">08 · 保证利率：1.75% 还是 1.5%</a>
+<a href="09-分红特别储备.html">09 · 分红特别储备全解析</a>
+<a href="10-实现率限高.html">10 · 分红实现率「限高」背后</a>
+<a href="11-红利分配方案.html">11 · 红利分配：现金红利 vs 增额红利</a>
+<a href="12-ALM实战.html">12 · 分红险资产负债管理实战</a>
+<div class="grp">国际镜鉴（第13～14篇）</div>
+<a href="13-美国200年.html">13 · 美国分红保险 200 年</a>
+<a href="14-日本启示.html">14 · 日本低利率时代的分红险启示</a>
+<div class="grp">公司战略与管理实务（第15～18篇）</div>
+<a href="15-中小公司优势.html">15 · 中小公司做分红险的三大优势</a>
+<a href="16-渠道转型.html">16 · 渠道转型：从「卖收益」到「卖逻辑」</a>
+<a href="17-预定利率.html">17 · 预定利率还要降多少？</a>
+<a href="18-备案驳回.html">18 · 新产品备案被驳回的 5 个原因</a>
+<div class="grp">延伸 · 从公司到个人</div>
+<a href="19-资产配置.html">19 · 资产配置：先认识自己，再配置世界</a>
+<div class="grp">关于</div>
+<a href="xihong.html">关于 · 西红精算</a>
+  </nav>
+  <div class="prog-mini">已读 <b id="kb-mini">0 / 20</b> 页<br>点每页右下角按钮记录进度</div>
+</aside>
+<main class="main">
+<div class="art-host">
+<style>
+.art-host *{ margin: 0; padding: 0; box-sizing: border-box; }
+.art-host body{ background-color: #f9fafb; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.7; color: #1f2d3d; padding: 24px 0 48px 0; }
+.art-host .article-container{ max-width: 640px; margin: 0 auto; background-color: #ffffff; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.03); overflow: hidden; padding: 32px 24px 48px 24px; }
+.art-host .article-title{ font-size: 26px; font-weight: 700; line-height: 1.35; color: #1e3a5f; margin-bottom: 8px; letter-spacing: -0.3px; }
+.art-host .article-sub{ font-size: 15px; color: #7c8ba0; border-left: 3px solid #e67e22; margin-bottom: 28px; font-weight: 400; background: #fef9f0; padding: 12px 16px; border-radius: 12px; }
+.art-host p{ font-size: 16px; margin-bottom: 1.2em; color: #2c3e4f; line-height: 1.75; }
+.art-host h2{ font-size: 22px; font-weight: 700; margin: 1.6em 0 0.8em 0; padding-bottom: 8px; border-bottom: 2px solid #eef2f6; color: #1e4663; }
+.art-host h3{ font-size: 18px; font-weight: 600; margin: 1.4em 0 0.6em 0; color: #2c5a7a; }
+.art-host .highlight-box{ background: linear-gradient(135deg, #f0f7ff 0%, #e8f0fa 100%); border-left: 5px solid #2c8fbb; padding: 18px 20px; margin: 1.6em 0; border-radius: 16px; font-size: 17px; font-weight: 500; color: #1a5d7a; }
+.art-host .plain-talk{ background-color: #fef9e6; border-left: 5px solid #f39c12; padding: 14px 18px; margin: 1.3em 0; font-size: 15px; color: #7d5d2e; border-radius: 12px; }
+.art-host .insight{ background-color: #eef7fa; border-left: 6px solid #2c8fbb; padding: 18px 20px; margin: 1.6em 0; border-radius: 16px; font-size: 16px; color: #1a5d7a; }
+.art-host table{ width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 14px; background-color: #fff; border-radius: 14px; overflow-x: auto; display: block; }
+.art-host th{ background-color: #1e4663; color: white; padding: 12px 8px; font-weight: 600; text-align: center; }
+.art-host td{ padding: 10px 8px; text-align: left; border-bottom: 1px solid #e9edf2; background-color: #fff; vertical-align: top; }
+.art-host ul,.art-host ol{ margin: 1em 0 1.2em 1.8em; }
+.art-host li{ margin-bottom: 0.5em; font-size: 16px; }
+
+
+
+@media (max-width: 600px){.art-host .article-container{ padding: 24px 18px 36px 18px; }
+.art-host .article-title{ font-size: 22px; }
+.art-host p,.art-host li{ font-size: 15px; }
+.art-host th,.art-host td{ font-size: 12px; padding: 8px 4px; }}
+.art-host .formula{ background-color: #f4f9fc; border-radius: 14px; padding: 12px 16px; margin: 1em 0; font-family: monospace; font-size: 14px; text-align: center; border: 1px solid #cde5ed; }
+.art-host .concept-table th,.art-host .concept-table td{ text-align: left; }
+</style>
+<style>.art-host .article-container{max-width:800px}.chap-banner{margin:0 0 24px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden}.chap-banner svg{display:block;width:100%;height:auto}.flow-fig{margin:10px 0 30px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden;background:#fcf5e6}.flow-fig svg{display:block;width:100%;height:auto}.chap-meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:-6px 0 26px;padding:0 0 18px;border-bottom:1px solid #e0d8c4}.chap-meta span{font-size:12px;letter-spacing:1.5px;padding:4px 14px;border-radius:30px;border:1px solid #cfc5ab;color:#55524a;background:#fbf8f0}.chap-meta span.lvl{color:#9c3527;border-color:rgba(156,53,39,.4);background:rgba(156,53,39,.06);font-weight:bold}.art-host .article-container p{line-height:2.0 !important;margin:0 0 15px !important;font-size:15.5px !important;color:#33322c !important;font-family:inherit}.art-host .article-container li{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}.art-host .article-container td,.art-host .article-container th{line-height:1.8 !important;font-size:13.5px !important}.art-host .article-container h2{font-size:21px !important;color:#1c1b18 !important;margin:38px 0 16px !important;line-height:1.55 !important;letter-spacing:1.5px;font-family:var(--serif);border-left:4px solid #235c4c;padding-left:14px}.art-host .article-container h3{font-size:17px !important;color:#235c4c !important;margin:26px 0 12px !important;line-height:1.6 !important;font-family:var(--serif)}.art-host .article-container h4{font-size:15px !important;color:#1c1b18 !important;margin:18px 0 10px !important;line-height:1.6 !important}.art-host .article-container strong{color:#1c1b18 !important}.art-host .article-container a{color:#235c4c !important}.art-host .article-container hr{border:none;border-top:1px dashed #cfc5ab;margin:26px 0 !important}.art-host .article-container .formula,.art-host .article-container .math,.art-host .article-container .formula-box{background:#f7f3e8 !important;border-left:3px solid #a37715 !important;border-radius:10px !important;font-family:var(--serif) !important;color:#4a3d1e !important}.art-host .article-container .calc-step{background:#fbf8f0 !important;border:1px solid #e0d8c4 !important;border-radius:10px !important}.art-host .article-container .term-table,.art-host .article-container .concept-table,.art-host .article-container .phase-table{font-size:14px !important}.art-host .article-container .positive{color:#235c4c !important}.art-host .article-container .negative{color:#9c3527 !important}.art-host .article-container .shuorenhua,.art-host .article-container .alert-box,.art-host .article-container .insight,.art-host .article-container .insight-box,.art-host .article-container .highlight-box,.art-host .article-container .plain-talk,.art-host .article-container .action-tips,.art-host .article-container .warning-box,.art-host .article-container .concept-grid,.art-host .article-container .concept-cards,.art-host .article-container .concept-item,.art-host .article-container .concept-card{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}</style>
+<div class="article-container"><figure class="chap-banner"><svg viewBox="0 0 680 190" role="img" aria-label="章节插画：准备金家族"><rect width="680" height="190" fill="#fcf5e6"/><circle cx="598" cy="54" r="44" fill="#e6b45c" opacity="0.10"/><circle cx="598" cy="54" r="28" fill="#e6b45c" opacity="0.16"/><circle cx="598" cy="54" r="14" fill="#e6b45c" opacity="0.85"/><ellipse cx="340" cy="172" rx="305" ry="9" fill="#e3d5b4" opacity="0.5"/><rect x="90" y="76" width="120" height="52" rx="8" fill="#fffdf8" stroke="#3d7a66" stroke-width="2.5"/><text x="150" y="112" font-size="12.5" fill="#3d7a66" text-anchor="middle" font-family="serif">法定</text><rect x="235" y="76" width="120" height="52" rx="8" fill="#fffdf8" stroke="#c98f2b" stroke-width="2.5"/><text x="295" y="112" font-size="12.5" fill="#c98f2b" text-anchor="middle" font-family="serif">会计</text><rect x="380" y="76" width="120" height="52" rx="8" fill="#fffdf8" stroke="#bf5638" stroke-width="2.5"/><text x="440" y="112" font-size="12.5" fill="#bf5638" text-anchor="middle" font-family="serif">偿付能力</text><rect x="525" y="76" width="120" height="52" rx="8" fill="#fffdf8" stroke="#3a3428" stroke-width="2.5"/><text x="585" y="112" font-size="12.5" fill="#3a3428" text-anchor="middle" font-family="serif">保单价值</text><line x1="340" y1="46" x2="340" y2="66" stroke="#3a3428" stroke-width="2.5"/><text x="340" y="40" font-size="13" fill="#3a3428" text-anchor="middle" font-family="serif">一张分红保单</text><text x="340" y="158" font-size="12" fill="#3a3428" text-anchor="middle" font-family="serif">四套口径 · 四个目的 · 四本账</text></svg></figure><div class="chap-meta"><span class="lvl">难度 · 专业</span><span>主题 · 准备金</span><span>第二季 · 第 06 篇</span></div>
+    <h1 class="article-title">分红保险的「准备金家族」</h1>
+    <div class="article-sub">不推销，只讲逻辑。花10分钟读完，比你自己研究一个月都有用。</div>
+
+    <p>很多保险从业者甚至初级精算师，听到“准备金”三个字就头大——法定准备金、会计准备金、偿付能力准备金、保单价值准备金、保费不足准备金……它们之间有什么关系？为什么一个分红险要计提这么多种“准备”？现金价值初期为什么很低？红利演示计算到底用的是哪一种准备金？</p>
+    <p>本文用一张图、一张表、一个精算案例，把分红保险的“准备金家族”彻底讲透。</p>
+
+    <h2>📌 一、为什么分红险需要计提那么多准备金？</h2>
+    <p>保险经营的特殊性在于：保费先收、赔付后付。为了确保保险公司在未来任何时点都有足够资金履行对保单持有人的承诺，监管和会计准则要求保险公司根据不同的目的，计提多种准备金。</p>
+    <p>简单说，<strong>不同准备金服务于不同对象</strong>：</p>
+    <ul>
+        <li><strong>法定准备金</strong>：服务于监管（确保偿付能力底线）</li>
+        <li><strong>会计准备金</strong>：服务于股东和报表使用者（反映真实财务状况）</li>
+        <li><strong>偿付能力准备金</strong>：服务于风险资本管理（计算最低资本）</li>
+        <li><strong>保单价值准备金</strong>：服务于客户（计算现金价值）</li>
+        <li><strong>保费不足准备金</strong>：服务于充足性测试（防止定价不足）</li>
+    </ul>
+    <p>它们如同一座房子的不同承重墙——各有分工，缺一不可。</p>
+
+    <h2>📌 二、分红保险的主要准备金类型——名称、定义、计算、用途速查表</h2>
+    <div style="overflow-x: auto;">
+        <table>
+            <thead><tr><th>准备金类型</th><th>定义</th><th>计算方法</th><th>关键假设</th><th>主要用途</th><th>服务对象</th> </tr></thead>
+            <tbody>
+                <tr><td style="font-weight:600;">法定准备金</td><td>根据保险法及精算规定，为履行保险合同义务而计提的最低负债</td><td>修正净保费法（FPT）或均衡净保费法；折现率≤预定利率</td><td>保守的死亡率、费用率；折现率通常≤定价利率</td><td>监管报告、偿付能力评估、保单责任保证</td><td>监管、保单持有人</td></tr>
+                <tr><td style="font-weight:600;">会计准备金（现行准则）</td><td>根据企业会计准则，在财务报表中列示的保险合同负债</td><td>最佳估计+风险边际+剩余边际；折现率采用即期利率或750天移动平均</td><td>基于实际经验的最佳估计，加风险边际（如3%-5%）</td><td>财务报告、利润计算、披露</td><td>股东、投资者</td></tr>
+                <tr><td style="font-weight:600;">偿付能力准备金（偿二代）</td><td>用于计量“最低资本”的风险资本要求，而非负债</td><td>保险风险、市场风险、信用风险的最低资本之和，考虑分散效应</td><td>在险价值（VaR，置信水平99.5%，一年期）</td><td>计算偿付能力充足率、风险资本管理</td><td>监管、风险管理</td></tr>
+                <tr><td style="font-weight:600;">保单价值准备金</td><td>专门用于计算保单现金价值的准备金基础</td><td>采用“未来法”或“过去法”，利率通常为预定利率+0%~+2%</td><td>发生率与定价一致；附加费用率使用表定上限；利率可上浮</td><td>计算保单年度末现金价值</td><td>客户、精算</td></tr>
+                <tr><td style="font-weight:600;">现金价值</td><td>保单持有人退保时能拿回的金额</td><td>保单价值准备金 × 系数（通常前几年＜1，交费期满后=1）</td><td>同保单价值准备金，但扣减退保手续费</td><td>退保给付、保单贷款基础</td><td>客户</td></tr>
+                <tr><td style="font-weight:600;">保费不足准备金</td><td>当未来保费现值不足以覆盖未来给付和费用时，额外计提的负债</td><td>毛保费法：比较未来保费现值与未来给付+费用现值，差额补提</td><td>同会计准备金假设，但必须“充足性测试”</td><td>确保保费定价充足，防止“赔本买卖”</td><td>监管、公司</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>📌 三、现行会计准则下的分红保险准备金计量</h2>
+    <p>现行准则（2006版企业会计准则，未执行IFRS17前）下，分红保险的会计准备金由三部分组成：</p>
+    <div class="formula">
+        <strong>会计准备金 = 合理估计负债 + 风险边际 + 剩余边际</strong>
+    </div>
+    <ul>
+        <li><strong>合理估计负债</strong>：基于公司实际经验和未来预期，对未来净现金流（保费、赔付、费用、红利）进行无偏估计，再按折现率折现。折现率通常参考750天移动平均国债收益率曲线。</li>
+        <li><strong>风险边际</strong>：为应对未来现金流的不确定性（死亡率的突然恶化、退保率异常、费用超支等）额外计提的“安全垫”。一般采用情景对比法或比例法（如未来现金流现值的3%-5%）。</li>
+        <li><strong>剩余边际</strong>：如果保单初始确认时，保费现值大于未来给付+费用+风险边际的现值，差额不能直接确认为首日利润，而是作为“剩余边际”计入负债，在保险期间内逐年摊销释放为利润。<strong>剩余边际是保险公司未来利润的核心来源。</strong></li>
+    </ul>
+    <div class="insight">
+        💡 <strong>精算要点</strong>：分红险的会计准备金中，已经包含了未来预期红利支出（采用当期最佳估计的红利假设），因此比传统险准备金更高，也更真实地反映了公司对客户的全部义务。
+    </div>
+
+    <h2>📌 四、IFRS17新准则下的分红保险准备金计量</h2>
+    <p>IFRS17（中国版也称为新保险合同准则）对保险合同负债的计量进行了革命性变革。对于分红保险，主要适用<strong>浮动收费法（VFA，Variable Fee Approach）</strong>，因为分红险的保单持有人利益与基础项目投资收益直接挂钩。</p>
+
+    <h3>1. 初始计量</h3>
+    <p>在合同组初始确认时，保险合同负债 = <strong>履约现金流 + 合同服务边际（CSM）</strong></p>
+    <ul>
+        <li><strong>履约现金流</strong> = 未来现金流出（赔付、费用、红利）现值 − 未来现金流入（保费）现值 + 风险调整</li>
+        <li><strong>合同服务边际（CSM）</strong> = 合同组的未赚利润，初始确认时＝首日利得（但不得为负，亏损合同CSM=0，亏损立即计入损益）</li>
+    </ul>
+
+    <h3>2. 后续计量（VFA法关键步骤）</h3>
+    <p>分红险采用<strong>浮动收费法（VFA）</strong>，其CSM后续计量具有独特之处：</p>
+    <ul>
+        <li><strong>步骤一：CSM吸收与未来服务相关的变动</strong><br>非经济假设变化（如死亡率、退保率、费用率）导致未来现金流变动，调整CSM。<br><strong>经济假设变化（如投资收益率变动）导致的预期浮动收费变动，也直接调整CSM</strong>，而不是计入当期损益。</li>
+        <li><strong>步骤二：CSM的利息累积</strong><br>CSM在每期末按折现率（即当前市场利率）计息，增加CSM余额。</li>
+        <li><strong>步骤三：CSM的摊销释放</strong><br>CSM按保险合同组未来的“保障单元”逐年摊销，确认为保险服务收入。摊销模式反映服务提供模式（如按保额、保单数量或预期生存期）。</li>
+        <li><strong>步骤四：亏损合同处理</strong><br>如果履约现金流为负（亏损），亏损立即计入当期损益，CSM为零。</li>
+    </ul>
+    <div class="plain-talk">
+        <strong>📢 说人话</strong>：IFRS17让分红险的利润变得更“真实”——投资波动不会立马砸进利润表，而是先被CSM吸收，一点点释放。这对长期经营分红险的公司是重大利好，避免了年年“过山车”。
+    </div>
+
+    <h2>📌 五、现行准则 vs IFRS17：主要差异对比</h2>
+    <div style="overflow-x: auto;">
+        <table>
+            <thead><tr><th>对比维度</th><th>现行准则</th><th>IFRS17（VFA）</th> </tr></thead>
+            <tbody>
+                <tr><td style="font-weight:600;">负债计量模型</td><td>合理估计+风险边际+剩余边际</td><td>履约现金流 + 合同服务边际（CSM）</td></tr>
+                <tr><td style="font-weight:600;">折现率</td><td>750天移动平均国债收益率（平滑）</td><td>即期国债收益率（反映当前市场）</td></tr>
+                <tr><td style="font-weight:600;">首日利得</td><td>确认为剩余边际，逐年摊销</td><td>确认为CSM，逐年释放</td></tr>
+                <tr><td style="font-weight:600;">亏损合同</td><td>计提保费不足准备金</td><td>亏损立即计入当期损益，CSM=0</td></tr>
+                <tr><td style="font-weight:600;">分红险特殊处理</td><td>剩余边际不吸收经济假设变化</td><td>VFA下CSM可吸收经济假设变化，利润更平滑</td></tr>
+                <tr><td style="font-weight:600;">利润释放</td><td>剩余边际按摊销因子释放</td><td>CSM按保险合同服务单元释放</td></tr>
+                <tr><td style="font-weight:600;">透明度和可比性</td><td>较低</td><td>更高，保险合同收入单独列示，投资成分剔除</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>📌 六、监管关于现金价值准备金的预定附加费用率要求</h2>
+    <p>根据《分红保险精算规定》，计算保单价值准备金时所使用的附加费用率不得高于下表规定的上限（个人业务）：</p>
+    <div style="overflow-x: auto;">
+        <table>
+            <thead><tr><th>交费方式</th><th>保险类型</th><th>首年附加费用率上限</th><th>后续年度附加费用率上限</th><th>说明</th> </tr></thead>
+            <tbody>
+                <tr><td style="font-weight:600;">趸交</td><td>终身寿险</td><td>18%</td><td>—</td><td>一次性交费</td></tr>
+                <tr><td style="font-weight:600;">趸交</td><td>年金保险、两全保险</td><td>8%</td><td>—</td><td>一次性交费</td></tr>
+                <tr><td style="font-weight:600;">期交</td><td>终身寿险</td><td>18%</td><td>10%（第二年）, 8%（第三年）, 2%（第四年及以后）</td><td>各年不超过上限</td></tr>
+                <tr><td style="font-weight:600;">期交</td><td>年金保险、两全保险</td><td>30%（前两年）, 16%（第三年及以后）</td><td>—</td><td>平均附加费用率不得超上限</td></tr>
+                <tr><td style="font-weight:600;">团体分红保险</td><td>各类</td><td>由公司自主确定</td><td>—</td><td>无明确上限，但须合理</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="insight">
+        💡 <strong>精算要点</strong>：保险公司实际采用的附加费用率可以低于这些上限，但不得高于上限。<strong>首年附加费用率极高（最高可达75%），是导致初期现金价值很低的核心原因。</strong>
+    </div>
+
+    <h2>📌 七、为什么现金价值初期很低？——用公式说明</h2>
+    <p>很多客户不理解：为什么我交了10万保费，第一年退保只能拿回5万甚至更少？精算上，现金价值的计算公式如下：</p>
+    <h3>1. 从保单价值准备金到现金价值</h3>
+    <div class="formula">
+        <strong>保单年度末现金价值 = 保单价值准备金 × 系数 − 退保手续费</strong>
+    </div>
+    <p>其中：<br>• <strong>保单价值准备金</strong>根据“未来法”计算：<br>$\\text{PVR}_t = \\sum_{k=t+1}^{n} \\frac{\\text{未来给付}_k}{(1+i')^{k-t}}$，$i'$通常为预定利率或预定利率+2%<br>• <strong>系数</strong>在前几年小于1，交费期满后等于1（监管允许扣除退保费用）<br>• <strong>退保手续费</strong>由保险公司设定，但不得使现金价值低于监管最低标准</p>
+    <h3>2. 为什么初期现金价值很低？</h3>
+    <p><strong>核心原因：首年附加费用率极高。</strong></p>
+    <p>以一款趸交分红险为例，总保费10万元：<br>• 首年附加费用（佣金、管理费、保险保障基金等）占保费的<strong>5%-18%</strong><br>• 剩余部分（净保费）进入储蓄账户，按保证利率1.75%复利增值<br>• 第一年末，储蓄账户本金约8.5万-9.5万元，但现金价值还需要扣除<strong>退保手续费</strong>（监管允许最高扣保费的2%-5%），最终可能只有8万-9万元，比已交保费少10%-20%。</p>
+    <p>如果是期交产品，首年附加费用率更高（可达40%-75%），第一年末现金价值可能只有首年保费的30%-50%。</p>
+    <div class="plain-talk">
+        <strong>📢 说人话</strong>：保险前几年退保，相当于你把钱存进一个“长跑基金”，刚进场就赎回了——销售佣金、管理费、风险保费已经扣掉了，剩下的本金还没开始复利跑。所以买分红险一定要有长期持有的准备。
+    </div>
+
+    <h2>📌 八、红利演示计算采用哪种准备金？</h2><figure class="flow-fig"><svg viewBox="0 0 680 220" role="img" aria-label="流程图：红利演示 · 两步流程"><rect width="680" height="220" fill="#fcf5e6"/><circle cx="608" cy="50" r="38" fill="#e6b45c" opacity="0.10"/><circle cx="608" cy="50" r="23" fill="#e6b45c" opacity="0.16"/><circle cx="608" cy="50" r="11" fill="#e6b45c" opacity="0.85"/><ellipse cx="340" cy="206" rx="300" ry="8" fill="#e3d5b4" opacity="0.5"/><text x="340" y="34" font-size="15" fill="#3a3428" text-anchor="middle" font-family="serif" letter-spacing="2">红利演示 · 两步流程</text><rect x="119" y="100" width="130" height="44" rx="8" fill="#3d7a66"/><text x="184" y="127" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">法定准备金</text><path d="M249 122 h14" stroke="#3a3428" stroke-width="2.5"/><path d="M263 116 l9 6 -9 6 z" fill="#3a3428"/><rect x="275" y="100" width="130" height="44" rx="8" fill="#c98f2b"/><text x="340" y="127" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">红利演示计算</text><path d="M405 122 h14" stroke="#3a3428" stroke-width="2.5"/><path d="M419 116 l9 6 -9 6 z" fill="#3a3428"/><rect x="431" y="100" width="130" height="44" rx="8" fill="#bf5638"/><text x="496" y="127" font-size="12.5" fill="#f5f1e6" text-anchor="middle" font-family="serif">演示红利</text><text x="340" y="175" font-size="13" fill="#3a3428" text-anchor="middle" font-family="serif" letter-spacing="1">演示口径必须锚定法定准备金——这是监管划定的地基</text></svg></figure>
+    <p>在分红险的<strong>红利演示</strong>中，<strong>计算基础是“法定未到期责任准备金”（法定准备金）</strong>，而不是保单价值准备金或会计准备金。</p>
+    <div class="formula">
+        <strong>红利演示上限 = (V0 + P) × (演示利率 − 预定利率) × 70%</strong>
+    </div>
+    <p>其中：<br>• <strong>V0</strong>：本保单年度期初红利计算基础对应的<strong>法定未到期责任准备金</strong><br>• <strong>P</strong>：按红利计算基础对应的准备金评估基础计算的本保单年度净保费<br>• 演示利率：保险公司投资收益率假设（目前上限3.5%）<br>• 预定利率：保证利率（如1.75%）<br>• 70%：演示时强制采用的红利分配比例</p>
+    <h3>为什么使用法定准备金，而不是保单价值准备金？</h3>
+    <ul>
+        <li>法定准备金是“审慎”的底线，直接关系到公司对保单持有人的负债承诺，用它计算红利演示，能够确保演示红利不会过于激进。</li>
+        <li>保单价值准备金主要用于计算现金价值，其利率可能高于预定利率（可上浮2%），直接用于红利演示会导致演示红利偏高，脱离实际可支撑水平。</li>
+        <li>监管统一采用法定准备金口径，有利于不同公司之间红利演示的可比性。</li>
+    </ul>
+    <div class="insight">
+        💡 <strong>精算提示</strong>：在实务中，对于增额终身寿等保单价值准备金利率等于预定利率的产品，使用法定准备金还是保单价值准备金差异不大；但对于杠杆终身寿、纯养老年金，两者差异显著，必须严格使用法定准备金。
+    </div>
+
+    <h2>📌 九、结论与建议</h2>
+    <h3>1. 对消费者的建议</h3>
+    <ul>
+        <li><strong>买分红险的钱必须是“长期闲钱”</strong>：前5-7年退保会亏损（早期费用高），持有10年以上才能真正体现分红险的复利优势。</li>
+        <li><strong>关注“现金价值回本时间”</strong>：投保前务必查看现金价值表，确认需要多少年现金价值才能超过已交保费。</li>
+        <li><strong>不要仅因初期现金价值低而否定产品</strong>：这是保险精算的正常规律，而不是产品坑人。</li>
+    </ul>
+    <h3>2. 对销售人员的建议</h3>
+    <ul>
+        <li><strong>售前必须告知客户早期退保损失</strong>：展示现金价值表，让客户明确持有期限。</li>
+        <li><strong>用“投资农场”比喻解释早期现金价值</strong>：前几年是播种施肥期，没有收成很正常，耐心等待才能丰收。</li>
+        <li><strong>学会解读红利演示报告中的法定准备金概念</strong>：向客户说明红利演示不是随意画饼，而是基于法定准备金的严格计算。</li>
+    </ul>
+    <h3>3. 对精算师/产品开发人员的建议</h3>
+    <ul>
+        <li><strong>红利演示必须使用法定未到期责任准备金</strong>，避免为追求高演示而借用保单价值准备金。</li>
+        <li><strong>在IFRS17实施后，关注VFA法下CSM的合理摊销</strong>，确保分红策略与负债计量相匹配。</li>
+        <li><strong>定期回溯分红实现率与实际投资收益率</strong>，动态调整红利演示假设。</li>
+    </ul>
+
+    <h2>📌 十、本章核心概念速记卡</h2>
+    <div style="overflow-x: auto;">
+        <table class="concept-table">
+            <thead><tr><th>中文</th><th>英文</th><th>一句话大白话</th> </tr></thead>
+            <tbody>
+                <tr><td style="font-weight:600;">法定准备金</td><td>Statutory Reserve</td><td>监管规定必须提的“最低安全垫”</td></tr>
+                <tr><td style="font-weight:600;">会计准备金</td><td>Accounting Reserve</td><td>报表上给股东看的负债</td></tr>
+                <tr><td style="font-weight:600;">偿付能力准备金</td><td>Solvency Capital Requirement</td><td>用来计算“公司够不够钱”的风险资本</td></tr>
+                <tr><td style="font-weight:600;">保单价值准备金</td><td>Policy Value Reserve</td><td>专门用来算客户现金价值的准备金</td></tr>
+                <tr><td style="font-weight:600;">现金价值</td><td>Cash Value</td><td>退保时你能拿回的钱</td></tr>
+                <tr><td style="font-weight:600;">保费不足准备金</td><td>Premium Deficiency Reserve</td><td>定价太便宜时额外补提的钱</td></tr>
+                <tr><td style="font-weight:600;">剩余边际</td><td>Remaining Margin</td><td>未来才能释放的利润蓄水池</td></tr>
+                <tr><td style="font-weight:600;">合同服务边际</td><td>Contractual Service Margin (CSM)</td><td>IFRS17下的未来利润池</td></tr>
+                <tr><td style="font-weight:600;">浮动收费法</td><td>Variable Fee Approach (VFA)</td><td>分红险适用的IFRS17计量模型，CSM能吸收投资波动</td></tr>
+                <tr><td style="font-weight:600;">红利演示</td><td>Dividend Illustration</td><td>基于法定准备金的计划书展示，非保证但可参考</td></tr>
+            </tbody>
+         </table>
+    </div>
+
+    </div>
+</div>
+<div class="pager"><a href="05-见山还是山.html"><small>← 上一篇</small>见山还是山：举重若轻，守住底线</a><a class="next" href="07-NBV全流程拆解.html"><small>下一篇 →</small>新业务价值（NBV）全流程拆解</a></div>
+<footer class="colophon">精算师说保险 · 第二季 · 西红精算 · 只讲逻辑与方法<br>本文为专业内容，仅供学习交流，不构成任何投保建议；具体产品请以条款与官方信息披露为准。</footer>
+</main>
+<script src="js/kb.js"></script>
+</body>
+</html>

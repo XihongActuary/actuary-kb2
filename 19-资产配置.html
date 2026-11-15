@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>资产配置：先认识自己，再配置世界 · 精算师说保险 第二季</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-id="19">
+<button class="navbtn" type="button">☰ 目录</button>
+<aside class="side">
+  <div class="brand"><b>精算师说保险 · 第二季</b><span>分红险的精算内核——比第一季更深一层</span></div>
+  <nav>
+<div class="grp">导论 · 行业为什么转向</div>
+<a href="00-解药.html">00 · 低利率时代，分红险为何是「解药」</a>
+<div class="grp">定价内功 · 见山三部曲（第1～5篇）</div>
+<a href="01-见山是山.html">01 · 见山是山：定价原来可以这么简单</a>
+<a href="02-保费不是拍脑袋.html">02 · 见山不是山（一）：保费不是拍脑袋</a>
+<a href="03-现金价值与红利.html">03 · 见山不是山（二）：现金价值与红利</a>
+<a href="04-利润与价值.html">04 · 见山不是山（三）：利润与新业务价值</a>
+<a href="05-见山还是山.html">05 · 见山还是山：举重若轻，守住底线</a>
+<div class="grp">专业深耕 · 负债与价值（第6～12篇）</div>
+<a href="06-准备金家族.html">06 · 分红保险的「准备金家族」</a>
+<a href="07-NBV全流程拆解.html">07 · 新业务价值（NBV）全流程拆解</a>
+<a href="08-定价决策框架.html">08 · 保证利率：1.75% 还是 1.5%</a>
+<a href="09-分红特别储备.html">09 · 分红特别储备全解析</a>
+<a href="10-实现率限高.html">10 · 分红实现率「限高」背后</a>
+<a href="11-红利分配方案.html">11 · 红利分配：现金红利 vs 增额红利</a>
+<a href="12-ALM实战.html">12 · 分红险资产负债管理实战</a>
+<div class="grp">国际镜鉴（第13～14篇）</div>
+<a href="13-美国200年.html">13 · 美国分红保险 200 年</a>
+<a href="14-日本启示.html">14 · 日本低利率时代的分红险启示</a>
+<div class="grp">公司战略与管理实务（第15～18篇）</div>
+<a href="15-中小公司优势.html">15 · 中小公司做分红险的三大优势</a>
+<a href="16-渠道转型.html">16 · 渠道转型：从「卖收益」到「卖逻辑」</a>
+<a href="17-预定利率.html">17 · 预定利率还要降多少？</a>
+<a href="18-备案驳回.html">18 · 新产品备案被驳回的 5 个原因</a>
+<div class="grp">延伸 · 从公司到个人</div>
+<a href="19-资产配置.html" class="on">19 · 资产配置：先认识自己，再配置世界</a>
+<div class="grp">关于</div>
+<a href="xihong.html">关于 · 西红精算</a>
+  </nav>
+  <div class="prog-mini">已读 <b id="kb-mini">0 / 20</b> 页<br>点每页右下角按钮记录进度</div>
+</aside>
+<main class="main">
+<div class="art-host">
+<style>
+.art-host *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.art-host body{
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #fafafa;
+            padding: 24px 0 60px 0;
+            line-height: 1.65;
+            color: #2c3e4f;
+        }
+.art-host .article-container{
+            max-width: 680px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 32px 24px 56px 24px;
+            box-shadow: 0 1px 12px rgba(0,0,0,0.04);
+        }
+.art-host h1{
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 16px;
+            color: #1a2c3e;
+            letter-spacing: -0.3px;
+        }
+.art-host h2{
+            font-size: 22px;
+            font-weight: 700;
+            margin: 2em 0 0.8em 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9edf2;
+            color: #1a2c3e;
+        }
+.art-host h3{
+            font-size: 18px;
+            font-weight: 600;
+            margin: 1.6em 0 0.6em 0;
+            color: #2c3e4f;
+        }
+.art-host p{
+            margin-bottom: 1.2em;
+            font-size: 16px;
+            line-height: 1.65;
+            color: #2c3e4f;
+        }
+.art-host .highlight-box{
+            background-color: #f5f7fa;
+            padding: 18px 20px;
+            margin: 1.5em 0;
+            border-radius: 16px;
+            color: #1e2f3e;
+        }
+.art-host .insight-box{
+            background-color: #f5f7fa;
+            padding: 16px 20px;
+            margin: 1.5em 0;
+            border-radius: 16px;
+            border-left: none;
+        }
+.art-host .alert-box{
+            background-color: #fef2f0;
+            padding: 16px 20px;
+            margin: 1.5em 0;
+            border-radius: 16px;
+            color: #b13e3e;
+        }
+.art-host .shuorenhua{
+            background-color: #eef2f9;
+            padding: 14px 18px;
+            margin: 1.2em 0;
+            border-radius: 20px;
+            font-style: normal;
+        }
+.art-host .action-tips{
+            background-color: #f0f4fa;
+            border-radius: 20px;
+            padding: 18px 22px;
+            margin: 1.8em 0;
+        }
+.art-host .asterisk-divider{
+            text-align: center;
+            margin: 2.2em 0;
+            letter-spacing: 0.6em;
+            font-size: 14px;
+            color: #9aaebf;
+        }
+.art-host hr{
+            margin: 32px 0;
+            border: none;
+            border-top: 1px solid #e2e8f0;
+        }
+.art-host table{
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.8em 0;
+            font-size: 14px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+        }
+.art-host th{
+            background-color: #eef2f6;
+            padding: 12px 8px;
+            font-weight: 600;
+            border: 1px solid #dce5ec;
+            color: #1e3a5f;
+        }
+.art-host td{
+            border: 1px solid #e2e8f0;
+            padding: 10px 8px;
+            vertical-align: top;
+            background-color: #fff;
+        }
+.art-host ul,.art-host ol{
+            margin: 0.8em 0 1.2em 1.8em;
+        }
+.art-host li{
+            margin-bottom: 0.4em;
+            line-height: 1.6;
+        }
+.art-host strong,.art-host b{
+            font-weight: 700;
+            color: #1f3b4c;
+        }
+.art-host .concept-card{
+            background-color: #f9fbfd;
+            border-radius: 24px;
+            padding: 18px 20px;
+            margin: 32px 0 16px;
+            border: 1px solid #e9edf2;
+        }
+.art-host .concept-card table{
+            margin: 0.5em 0;
+            box-shadow: none;
+        }
+
+@media (max-width: 600px){.art-host .article-container{
+                padding: 24px 20px 48px 20px;
+            }
+.art-host h1{
+                font-size: 26px;
+            }
+.art-host h2{
+                font-size: 20px;
+            }
+.art-host table,.art-host td,.art-host th{
+                font-size: 12px;
+                padding: 6px;
+            }}
+</style>
+<style>.art-host .article-container{max-width:800px}.chap-banner{margin:0 0 24px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden}.chap-banner svg{display:block;width:100%;height:auto}.flow-fig{margin:10px 0 30px;border:1px solid #d8cdb2;border-radius:14px;overflow:hidden;background:#fcf5e6}.flow-fig svg{display:block;width:100%;height:auto}.chap-meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:-6px 0 26px;padding:0 0 18px;border-bottom:1px solid #e0d8c4}.chap-meta span{font-size:12px;letter-spacing:1.5px;padding:4px 14px;border-radius:30px;border:1px solid #cfc5ab;color:#55524a;background:#fbf8f0}.chap-meta span.lvl{color:#9c3527;border-color:rgba(156,53,39,.4);background:rgba(156,53,39,.06);font-weight:bold}.art-host .article-container p{line-height:2.0 !important;margin:0 0 15px !important;font-size:15.5px !important;color:#33322c !important;font-family:inherit}.art-host .article-container li{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}.art-host .article-container td,.art-host .article-container th{line-height:1.8 !important;font-size:13.5px !important}.art-host .article-container h2{font-size:21px !important;color:#1c1b18 !important;margin:38px 0 16px !important;line-height:1.55 !important;letter-spacing:1.5px;font-family:var(--serif);border-left:4px solid #235c4c;padding-left:14px}.art-host .article-container h3{font-size:17px !important;color:#235c4c !important;margin:26px 0 12px !important;line-height:1.6 !important;font-family:var(--serif)}.art-host .article-container h4{font-size:15px !important;color:#1c1b18 !important;margin:18px 0 10px !important;line-height:1.6 !important}.art-host .article-container strong{color:#1c1b18 !important}.art-host .article-container a{color:#235c4c !important}.art-host .article-container hr{border:none;border-top:1px dashed #cfc5ab;margin:26px 0 !important}.art-host .article-container .formula,.art-host .article-container .math,.art-host .article-container .formula-box{background:#f7f3e8 !important;border-left:3px solid #a37715 !important;border-radius:10px !important;font-family:var(--serif) !important;color:#4a3d1e !important}.art-host .article-container .calc-step{background:#fbf8f0 !important;border:1px solid #e0d8c4 !important;border-radius:10px !important}.art-host .article-container .term-table,.art-host .article-container .concept-table,.art-host .article-container .phase-table{font-size:14px !important}.art-host .article-container .positive{color:#235c4c !important}.art-host .article-container .negative{color:#9c3527 !important}.art-host .article-container .shuorenhua,.art-host .article-container .alert-box,.art-host .article-container .insight,.art-host .article-container .insight-box,.art-host .article-container .highlight-box,.art-host .article-container .plain-talk,.art-host .article-container .action-tips,.art-host .article-container .warning-box,.art-host .article-container .concept-grid,.art-host .article-container .concept-cards,.art-host .article-container .concept-item,.art-host .article-container .concept-card{line-height:1.95 !important;font-size:15px !important;color:#33322c !important}</style>
+<div class="article-container"><figure class="chap-banner"><svg viewBox="0 0 680 190" role="img" aria-label="章节插画：先认识自己"><rect width="680" height="190" fill="#fcf5e6"/><circle cx="598" cy="54" r="44" fill="#e6b45c" opacity="0.10"/><circle cx="598" cy="54" r="28" fill="#e6b45c" opacity="0.16"/><circle cx="598" cy="54" r="14" fill="#e6b45c" opacity="0.85"/><ellipse cx="340" cy="172" rx="305" ry="9" fill="#e3d5b4" opacity="0.5"/><circle cx="220" cy="96" r="52" fill="none" stroke="#3d7a66" stroke-width="3"/><text x="220" y="90" font-size="13" fill="#3a3428" text-anchor="middle" font-family="serif">风险承受力</text><text x="220" y="112" font-size="12" fill="#3d7a66" text-anchor="middle" font-family="serif">期限 · 流动性</text><path d="M300 96 h60" stroke="#3a3428" stroke-width="3"/><path d="M354 90 l10 6 -10 6 z" fill="#3a3428"/><rect x="390" y="48" width="130" height="34" rx="6" fill="#fffdf8" stroke="#c98f2b" stroke-width="2"/><text x="455" y="70" font-size="12" fill="#c98f2b" text-anchor="middle" font-family="serif">现金类</text><rect x="390" y="92" width="130" height="34" rx="6" fill="#fffdf8" stroke="#c98f2b" stroke-width="2"/><text x="455" y="114" font-size="12" fill="#c98f2b" text-anchor="middle" font-family="serif">固收类</text><rect x="390" y="136" width="130" height="34" rx="6" fill="#fffdf8" stroke="#c98f2b" stroke-width="2"/><text x="455" y="158" font-size="12" fill="#c98f2b" text-anchor="middle" font-family="serif">权益类</text><text x="560" y="150" font-size="12" fill="#3a3428" font-family="serif">先己后人</text></svg></figure><div class="chap-meta"><span class="lvl">难度 · 基础</span><span>主题 · 个人投资</span><span>第二季 · 第 19 篇</span></div>
+
+    <h1 class="article-title">资产配置：先认识自己，再配置世界</h1>
+
+    <div class="highlight-box">
+        📌 不推销，只讲逻辑。花10分钟读完，比你自己瞎研究一个月都有用。
+    </div>
+
+    <p>很多朋友问我：<br>
+    “利率一直降，钱放银行越来越亏，该怎么办？”<br>
+    “股票基金亏了不少，还要继续投吗？”<br>
+    “保险、房产、现金，到底该怎么配比例？”<br>
+    “听说可以买海外资产，普通人怎么操作？”</p>
+    <p>这些问题，都指向一个核心——<strong>资产配置</strong>。</p>
+    <p>今天，我用一篇文章，结合精算师的专业视角与真实数据，跟你彻底讲透：<strong>What（是什么）、Why（为什么）、How（怎么做）</strong>，并送你两套可直接落地的方案。</p>
+
+    <h2>一、什么是资产配置？What？</h2>
+    <p><strong>资产配置，就是根据你的生活目标、风险偏好和人生阶段，将资金科学地分配到不同类别的资产中，形成一个“进可攻、退可守”的投资组合。</strong></p>
+    <p>它至少包含三个维度：</p>
+    <table>
+        <thead><tr><th>维度</th><th>含义</th><th>实例</th></tr></thead>
+        <tbody>
+            <tr><td><strong>跨资产配置</strong></td><td>不同资产各司其职</td><td>房产、股票、债券、保险、现金</td></tr>
+            <tr><td><strong>跨周期配置</strong></td><td>短期、中期、长期资金严格分离</td><td>应急金→活期；中期→固收+分红险；长期→权益/股权</td></tr>
+            <tr><td><strong>跨代际规划</strong></td><td>不仅是当下，更要考虑子女、自己养老、传承</td><td>教育年金、养老年金、终身寿险+信托</td></tr>
+        </tbody>
+    </table>
+    <div class="shuorenhua"><strong>说人话：</strong> 资产配置，就是用现在的钱，安排好未来的生活——<strong>教育、医疗、养老、传承</strong>，一样都不能少。</div>
+
+    <h2>二、为什么要做资产配置？Why？</h2>
+    <p>你可能会说：“我就存银行，不行吗？”<br>在低利率时代，<strong>“存银行”正在让你变穷</strong>。</p>
+    <p>资产配置的核心目的，是服务于你未来的人生重大开销：</p>
+    <table>
+        <thead><tr><th>用途</th><th>真实成本（一线/全国）</th><th>风险提示</th></tr></thead>
+        <tbody>
+            <tr><td><strong>子女教育</strong></td><td>0-17岁养育成本：上海101万元、北京93.6万元，全国平均53.8万元</td><td>若不提前规划，届时只能卖房/借钱</td></tr>
+            <tr><td><strong>重大疾病</strong></td><td>恶性肿瘤平均治疗费用<strong>48.7万元</strong>（国家卫健委），年增速约10%</td><td>社保报销有限，自费部分仍需数十万</td></tr>
+            <tr><td><strong>养老</strong></td><td>60岁退休、寿命85岁，品质养老（月支出现值1万元），3%通胀下需准备近<strong>500万元</strong></td><td>社保养老金替代率仅<strong>39.2%</strong>（2024年），低于55%警戒线</td></tr>
+        </tbody>
+    </table>
+    <div class="insight-box">📌 <strong>结论：</strong> 这些是<strong>刚性的、确定性的</strong>支出。你必须用一种<strong>确定的、安全的方式</strong>去覆盖它们。这正是资产配置的价值。</div>
+
+    <h2>三、当下资产环境，正在发生的三个不可逆变化</h2>
+    <h3>1. 房产告别普涨，回归居住与保值属性</h3>
+    <p>过去二十年，房产是“增值神器”。如今全国市场严重分化，<strong>只有核心城市、核心地段的优质不动产</strong>才具备抗通胀、稳底盘的价值。非核心资产不仅难涨，甚至面临<strong>流动性枯竭、价值缩水</strong>的风险。</p>
+    <div class="insight-box">🏠 房产不再是“暴力增值品”，而是家庭资产的 <strong>“压舱石”</strong>。</div>
+
+    <h3>2. 无风险收益持续走低，现金不再“安全”</h3>
+    <ul>
+        <li>2026年1月，普通型人身险预定利率研究值降至<strong>1.89%</strong>（4月最新1.93%，2.0%上限维持不变）</li>
+        <li>一年期定期存款利率跌破<strong>1.5%</strong></li>
+        <li>10年期国债收益率在<strong>2.5%</strong> 左右波动</li>
+    </ul>
+    <div class="shuorenhua"><strong>说人话：</strong> 存钱吃利息的时代结束了。你的现金正在被通胀悄悄吃掉。</div>
+
+    <h3>3. 财富逻辑重构：从“重仓押注”到“分散布局”</h3>
+    <p>过去靠<strong>赌对一个赛道</strong>赢家通吃。未来靠<strong>多元配置、多周期匹配、多风险对冲</strong>稳健前行。</p>
+    <div class="alert-box">⚠️ 高净值人群的共同选择：<strong>拒绝极端风险，平滑收益波动，锁定长期复利</strong>。</div>
+
+    <h2>四、怎么做资产配置？How？</h2>
+    <h3>第一步：认识你自己——动态评估风险偏好</h3>
+    <p>很多人回顾过去的投资，感觉不满意，甚至亏了钱。根本原因不是产品不好，而是<strong>你的风险偏好变了，但资产配置没有变</strong>。</p>
+    <ul>
+        <li>年轻单身时 → 可承受较大波动，甚至全仓股票。</li>
+        <li>成家立业后 → 有房贷、有孩子，开始害怕亏损。</li>
+        <li>临近退休 → 需要稳定现金流，而不是过山车般的涨跌。</li>
+    </ul>
+    <div class="insight-box">🎯 <strong>精算师视角：</strong> 建议<strong>至少每年重新评估一次</strong>风险承受能力，或在结婚、生子、换工作等重大事件发生时及时调整。</div>
+    <div class="shuorenhua"><strong>说人话：</strong> 资产配置方案，应该跟着你的人生阶段走，而不是一成不变。</div>
+
+    <h3>第二步：避开三大常见误区</h3>
+    <p><strong>❌ 误区一：盲目对标他人</strong><br>“我朋友买那个赚了好多，我也买。”——这是最危险的陷阱。你朋友的资金厚度、负债情况、年龄阶段、现金流状况，和你完全不同。同样的资产，在他看来是机会，在你看来可能就是深渊。<strong>资产配置是自己的事，别人的地图，找不到你的路。</strong></p>
+    <p><strong>❌ 误区二：盯着高收益，忽视安全性，牺牲流动性</strong><br>高收益永远伴随高风险。更可怕的是，很多人为了多赚一两个点，把<strong>短期要用的钱、房贷钱、应急金</strong>投进了长期封闭产品。结果急需用钱时，要么割肉出局，要么四处借债。</p>
+    <div class="alert-box">🚨 <strong>流动性风险，是家庭财富最大的隐形杀手。</strong></div>
+    <p><strong>❌ 误区三：追求一套“万能方案”</strong><br><strong>不存在一套适合所有人的资产配置方案。</strong> 相同的资产，有人觉得安全，有人觉得危险。1年的“安全”和10年的“安全”，含义完全不同。<strong>资产配置的差异，本质是认知的差异。</strong> 道听途说、偏听偏信，最终只会把财富带入深渊。</p>
+
+    <h3>第三步：先配好保险——保险的双层角色（保障+稳健资产）</h3>
+    <p>保险在资产配置中扮演<strong>两个不可替代的角色</strong>：</p>
+    <table>
+        <thead><tr><th>角色</th><th>功能</th><th>实例</th></tr></thead>
+        <tbody>
+            <tr><td><strong>保障层（基石）</strong></td><td>用杠杆对冲极端风险</td><td>医疗险、重疾险、定期寿险、意外险</td></tr>
+            <tr><td><strong>稳健资产层（蓄水池）</strong></td><td>专款专用、强制储蓄、锁定长期收益</td><td>分红险、万能险、养老年金、增额终身寿</td></tr>
+        </tbody>
+    </table>
+    <p><strong>保险特有的三大机制：</strong><br>• <strong>专款专用</strong>：教育金、养老金不会被挪用。<br>• <strong>强制储蓄</strong>：分期缴费，避免“月光”，到期给付。<br>• <strong>锁定长期收益</strong>：在利率下行周期中，保底利率写进合同，抵御再投资风险。</p>
+    <div class="insight-box">📌 <strong>精算师结论：</strong> 保险不是投资，它是你所有投资的“安全带”和“压舱石”。<strong>没有保险的资产配置，就像没有刹车的高速跑车。</strong></div>
+
+    <h3>第四步：不同生命周期，保险怎么配？</h3>
+    <table>
+        <thead><tr><th>生命周期</th><th>核心风险</th><th>重点保险配置</th><th>保费建议</th></tr></thead>
+        <tbody>
+            <tr><td>单身/初创期</td><td>收入中断、意外</td><td>定期寿险（经济支柱）+百万医疗+意外险</td><td>年收入5%-8%</td></tr>
+            <tr><td>发展期（有娃）</td><td>健康、教育、房贷</td><td>重疾险+定期寿险+教育年金</td><td>年收入6%-10%</td></tr>
+            <tr><td>成熟期（中年）</td><td>养老、资产保值</td><td>养老年金+增额终身寿+高端医疗</td><td>年收入8%-12%</td></tr>
+            <tr><td>夕阳期（退休）</td><td>护理、传承</td><td>长期护理险+终身寿险+保险金信托</td><td>根据资产规模定</td></tr>
+        </tbody>
+    </table>
+    <div class="shuorenhua"><strong>简单原则：</strong> 经济支柱优先，保额必须覆盖<strong>家庭总负债 + 5年家庭必要开支</strong>。</div>
+
+    <h3>第五步：搭建你的财富金字塔——标准四层配置框架</h3>
+    <table>
+        <thead><tr><th>层级</th><th>配置比例</th><th>包含资产</th><th>核心作用</th></tr></thead>
+        <tbody>
+            <tr><td><strong>第一层：安全底盘资产</strong></td><td>25%-30%</td><td>核心城市优质房产、国债、50万以内存款、3-5年应急现金</td><td>守住底线，绝对安全，随时可取</td></tr>
+            <tr><td><strong>第二层：稳健增值资产</strong></td><td>20%-25%</td><td>优质债券基金、固收+理财、<strong>分红险、万能险</strong></td><td>跑赢通胀，平滑波动，中期稳健增值</td></tr>
+            <tr><td><strong>第三层：长线成长资产</strong></td><td>30%-40%</td><td>股票指数基金（ETF）、硬科技/新能源/AI赛道股权</td><td>博取长期超额收益，拉开财富差距</td></tr>
+            <tr><td><strong>第四层：避险保障资产</strong></td><td>15%-20%</td><td>全家保障型保险（重疾、医疗、定期寿险、长期护理险）、黄金</td><td>对冲极端风险，防止“黑天鹅”击穿家庭财富</td></tr>
+        </tbody>
+    </table>
+    <div class="alert-box">⚠️ <strong>注意：</strong> 第四层（保障型保险）是整个金字塔的基石——没有它，上面全是空中楼阁。</div>
+
+    <h3>第六步：足不出户，如何实现全球资产配置？</h3>
+    <p>很多朋友问：“我也想配置海外资产，但没时间、没渠道，怎么办？”</p>
+    <p><strong>QDII（合格境内机构投资者，Qualified Domestic Institutional Investor）</strong> 是国家批准的“出海直通车”。通过QDII基金，你可以用人民币<strong>足不出户</strong>投资海外股票、债券、REITs等资产，门槛低至10元。</p>
+    <p>但光知道工具还不够，关键要理解三个核心问题：<strong>如何协调增值？如何穿越周期？如何真正分散？</strong></p>
+
+    <div class="insight-box">
+        <p><strong>🌱 如何协调增值？——用“核心+卫星”策略</strong><br>
+        全球配置不是为了追求短期暴利，而是<strong>在控制风险的前提下获取长期稳健回报</strong>。建议采用“核心+卫星”结构：<br>
+        • <strong>核心部分（60%-70%）</strong>：配置宽基指数（如标普500、纳斯达克100、MSCI中国海外指数），分享全球长期经济增长。<br>
+        • <strong>卫星部分（30%-40%）</strong>：根据经济周期，适度配置行业ETF（科技、医疗、能源）或主题基金，增强收益弹性。<br>
+        • <strong>再平衡机制</strong>：每年调整一次，卖出涨多的、补入跌多的，被动实现“低买高卖”。</p>
+    </div>
+
+    <div class="insight-box">
+        <p><strong>⏳ 如何穿越周期？——股债搭配+定投纪律</strong><br>
+        单一资产无法穿越周期，但<strong>组合可以</strong>。<br>
+        • <strong>股债搭配</strong>：海外权益（股票类QDII）提供增长，海外债券或REITs提供稳定现金流。经典“60/40”组合（60%股+40%债）在过去40年穿越了多次牛熊。<br>
+        • <strong>定投纪律</strong>：每月固定金额投入QDII指数基金，市场跌时买更多份额，涨时买更少，自动摊低成本。长期定投可以抹平择时风险。<br>
+        • <strong>锁定长期</strong>：全球配置至少持有5-7年，避免因短期波动追涨杀跌。</p>
+    </div>
+
+    <div class="insight-box">
+        <p><strong>🌍 如何全球分散？——跨市场+跨币种+跨资产</strong><br>
+        真正的分散不是买几只不同国家的股票，而是做到三层分散：<br>
+        • <strong>跨市场</strong>：同时配置美国（成熟市场）、欧洲、日本、以及越南/印度等新兴市场，避免单一国家风险。<br>
+        • <strong>跨币种</strong>：QDII基金以美元/港币/欧元等外币计价，换回人民币时自然形成汇率对冲。当人民币贬值时，海外资产升值；反之亦然。<br>
+        • <strong>跨资产类别</strong>：除了股票，还可以通过QDII配置海外债券、REITs（房地产信托）、大宗商品（黄金、原油），进一步降低相关性。<br>
+        📌 <strong>简易起步方案</strong>：<strong>纳斯达克100（科技） + 标普500（均衡） + 恒生科技（港股） + 海外债券基金</strong>，每月定投，长期持有。</p>
+    </div>
+
+    <div class="action-tips">
+        <p><strong>✅ 全球配置实操清单：</strong></p>
+        <p>1️⃣ 在支付宝/天天基金搜索“QDII”，选择规模大、费率低的指数基金。</p>
+        <p>2️⃣ 每月拿出<strong>可投资资金的10%-20%</strong>，按比例定投上述组合。</p>
+        <p>3️⃣ 每年12月做一次再平衡：将涨多的部分卖出，补入跌多的部分。</p>
+        <p>4️⃣ 坚持5年以上，不要因短期波动而停止。</p>
+    </div>
+
+    <div class="insight-box">🌍 <strong>精算师结论：</strong> 全球配置比例建议控制在<strong>总金融资产的10%-20%</strong>，并用“核心+卫星+定投”的方式长期执行。足不出户，一样可以分享全球经济增长的红利。</div>
+
+    <h2>五、中国家庭资产配置现状：差距触目惊心</h2>
+    <table>
+        <thead><tr><th>资产类型</th><th>中国家庭</th><th>美国家庭</th><th>日本家庭</th></tr></thead>
+        <tbody>
+            <tr><td><strong>房产占比</strong></td><td>约52.4%</td><td>约26.5%</td><td>约38%</td></tr>
+            <tr><td><strong>金融资产占比</strong></td><td>约47.6%（2024年）</td><td>约68.9%（2024年）</td><td>约55%</td></tr>
+            <tr><td><strong>保险与养老金占比</strong></td><td>较低（约4%）</td><td>约30%</td><td>—</td></tr>
+        </tbody>
+    </table>
+    <p><strong>结论：</strong><br>1️⃣ 中国家庭房产占比仍然偏高，且大多非核心地段，流动性差。<br>2️⃣ <strong>保险资产占比极低</strong>，对抗疾病、意外、长寿风险的“防波堤”薄弱。<br>3️⃣ 金融资产以现金和存款为主，在利率下行周期中购买力持续缩水。</p>
+    <div class="shuorenhua"><strong>说人话：</strong> 我们太爱买房和存钱了，但这两样在低利率时代都不是好选择。必须向<strong>保险+权益+全球配置</strong>转型。</div>
+
+    <h2>六、两套简易配置方案（可直接落地）</h2>
+    <div class="action-tips">
+        <p><strong>✅ 第0步（地基）：先为自己和家人配足基础保险保障</strong></p>
+        <p>• 意外险：几十万保额，年保费几百元。<br>• 百万医疗险：200-400万保额，年保费300-1000元（30岁左右）。<br>• 重疾险：保额建议覆盖3-5倍年收入。<br>• 定期寿险：保额必须覆盖<strong>房贷余额+5年家庭必要开支</strong>。家庭经济支柱必配。</p>
+        <p>⚠️ <strong>如果一个家庭连基础保障都没有，那么所有关于投资的讨论，都是空中楼阁。</strong></p>
+    </div>
+
+    <h3>方案A：中产进阶家庭（年收入30万以下）</h3>
+    <table>
+        <thead><tr><th>资产类别</th><th>配置比例</th><th>具体建议</th></tr></thead>
+        <tbody>
+            <tr><td>保险（基础保障）</td><td>8%-10%</td><td>百万医疗+重疾+定期寿险（家庭支柱）</td></tr>
+            <tr><td>稳健资产</td><td>40%-50%</td><td>国债、纯债基金、<strong>分红险/万能险</strong></td></tr>
+            <tr><td>成长资产</td><td>10%-20%</td><td>指数基金定投（沪深300、中证500）+ 小比例QDII（如纳斯达克100）</td></tr>
+            <tr><td>现金/应急</td><td>10%-15%</td><td>货币基金、短期存款</td></tr>
+            <tr><td>房产</td><td>一套自住房</td><td>不再新增投资性房产</td></tr>
+        </tbody>
+    </table>
+
+    <h3>方案B：高净值家庭（年收入30万以上）</h3>
+    <table>
+        <thead><tr><th>资产类别</th><th>配置比例</th><th>具体建议</th></tr></thead>
+        <tbody>
+            <tr><td>保险（全面保障）</td><td>15%-20%</td><td>高端医疗+终身寿险+养老年金+<strong>保险金信托</strong>（起点通常100万元）</td></tr>
+            <tr><td>稳健资产</td><td>25%-30%</td><td>固收+理财、分红险、万能险、优质债券</td></tr>
+            <tr><td>成长资产</td><td>30%-40%</td><td>宽基指数+行业ETF（科技、医疗、新能源）+一线城市核心房产（≤30%总资产）+ <strong>全球QDII配置（10%-15%金融资产）</strong></td></tr>
+            <tr><td>避险资产</td><td>10%-15%</td><td>黄金、美元保单、港股通</td></tr>
+            <tr><td>现金</td><td>5%-10%</td><td>保持流动性</td></tr>
+        </tbody>
+    </table>
+
+    <div class="asterisk-divider">* * *</div>
+
+    <div class="asterisk-divider">* * *</div>
+
+    <div class="concept-card">
+        <h3 style="margin-top:0; margin-bottom:12px;">📌 本章核心概念速记卡</h3>
+        <table>
+            <thead><tr><th>中文</th><th>英文</th><th>一句话大白话</th></tr></thead>
+            <tbody>
+                <tr><td>资产配置</td><td>Asset Allocation</td><td>按人生阶段，把钱分到不同篮子</td></tr>
+                <tr><td>风险偏好</td><td>Risk Tolerance</td><td>你能承受多大的波动</td></tr>
+                <tr><td>流动性风险</td><td>Liquidity Risk</td><td>急用钱时拿不出来</td></tr>
+                <tr><td>康波周期</td><td>Kondratiev Wave</td><td>每60年一次的大机会</td></tr>
+                <tr><td>四层金字塔</td><td>4-Layer Pyramid</td><td>底盘要稳，主体要实，顶层可攻</td></tr>
+                <tr><td>保险双层角色</td><td>Dual Role of Insurance</td><td>底层兜底，中层锁利</td></tr>
+                <tr><td>QDII基金</td><td>Qualified Domestic Institutional Investor</td><td>不出国门，买遍全球</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</div>
+<div class="pager"><a href="18-备案驳回.html"><small>← 上一篇</small>新产品备案被驳回的 5 个原因</a><a class="next" href="xihong.html"><small>下一篇 →</small>关于 · 西红精算</a></div>
+<footer class="colophon">精算师说保险 · 第二季 · 西红精算 · 只讲逻辑与方法<br>本文为专业内容，仅供学习交流，不构成任何投保建议；具体产品请以条款与官方信息披露为准。</footer>
+</main>
+<script src="js/kb.js"></script>
+</body>
+</html>
